@@ -50,7 +50,7 @@ ggplot(data,aes(x = Age,y = PopPerc))+
   labs(x = '', y = 'Population (%)',
        title = 'Population Pyramid of Pakistan',
        subtitle = paste('Total Population :', format(sum(data$Population), big.mark = ',')),
-       caption ='Source: Pakistan Census 2017',)+
+       caption ='',)+
   annotate(geom="text", 
            x=6.5, 
            y=12, 

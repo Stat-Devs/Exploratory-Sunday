@@ -1,20 +1,22 @@
 ---
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 theme: united
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
- 
-<font size = "8"  face="arial" color="#008000">
-Did you know? 
-</font>
 
-<font size="6">
+ 
+```{r know, echo = FALSE, out.width = "40%", fig.align='center'}
+knitr::include_graphics("Did-You-Know.jpg")
+```
+
+<font size="5" face = "arial" color = "black">
 
 - Male percentage of total population is 51.19 % while female are 48.81 % of Pakistan's total population.
-- The working age population in Pakistan is 56.66 %.
 - For every 100 people in Pakistan, 64 live in Rural Areas of Pakistan. 
 
 </font>
@@ -22,6 +24,8 @@ Did you know?
 ```{r loading file, echo = FALSE, out.width = "150%", fig.align='center'}
 knitr::include_graphics("Pop-Pyramid.png")
 ```
-<font size = "6">
+<font size = "2">
 Data Source : [*Pakistan Census Data 2017*](https://www.pbs.gov.pk/content/final-results-census-2017) 
 </font>
+
+<div style="text-align: right;"><img src="Final-Logo.png" width="120" alt="My Image" /></div>
