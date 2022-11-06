@@ -1,0 +1,35 @@
+---
+title: "Pre_Post_Consultation"
+format: html
+editor: visual
+---
+
+```{r know, echo = FALSE, out.width = "40%", fig.align='center'}
+knitr::include_graphics("Did-You-Know.jpg")
+```
+
+```{r,echo = False}
+library(tidyverse)
+secJ <- read.spss(file = "E:/IHI-2/IHI-2 Project/Data/PSLM spss data/SecJ.sav",use.value.label=TRUE,to.data.frame=TRUE)
+secJ <- as_tibble(secJ)
+
+```
+
+
+## Postnatal Consultation 
+```{r}
+
+```
+
+
+
+
+## Prenatal Consultation
+```{r}
+
+```
+
+
+## Statistics
+
+
