@@ -1,0 +1,113 @@
+---
+format: html
+editor: visual
+---
+
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(foreign)
+```
+
+```{r know, echo = FALSE, out.width = "40%", fig.align='center'}
+knitr::include_graphics("Did-You-Know.jpg")
+```
+<center>
+<font size="5" face = "arial" color = "black">
+Pakistan Prenatal Consultation Trends & Statistics
+</font>
+</center>
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Read dataset ----
+secJ <- read.spss(file = "PSLM-data/SecJ.sav",use.value.label=TRUE,to.data.frame=TRUE)
+secJ <- as_tibble(secJ)
+
+# Data Processing ----
+# Select prenatal consult place variable and filter null values
+pre_consult <- select(secJ,sjaq03,Province, Region) |>
+  rename(
+  prenatal_consult_place = sjaq03,
+  prov = Province,
+  region = Region
+  ) |>
+  filter(!is.na(prenatal_consult_place))
+
+#rename prenatal_consult_place : Private Hos = 1,Govt Hos = 2, Home-LHW =3, Home-LHV = 3,Home Doc = 3,Home-TBA = 4,Other = 4 
+levels(pre_consult$prenatal_consult_place)[levels(pre_consult$prenatal_consult_place)=="Private Hosp/Clinic"] <- "Pvt"
+levels(pre_consult$prenatal_consult_place)[levels(pre_consult$prenatal_consult_place)=="Govt Hosp/Clinic"] <- "Govt"
+levels(pre_consult$prenatal_consult_place)[levels(pre_consult$prenatal_consult_place)=="Home-TBA"] <- "Other"
+levels(pre_consult$prenatal_consult_place)[levels(pre_consult$prenatal_consult_place)=="Home-LHW"] <- "LHV/LHW"
+levels(pre_consult$prenatal_consult_place)[levels(pre_consult$prenatal_consult_place)=="Home-LHV"] <- "LHV/LHW"
+levels(pre_consult$prenatal_consult_place)[levels(pre_consult$prenatal_consult_place)=="Home-Doctor"] <- "LHV/LHW"
+levels(pre_consult$prenatal_consult_place)[levels(pre_consult$prenatal_consult_place)=="Other"] <- "Other"
+
+```
+
+
+```{r, arraying}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Arrange data in format for stacked bar chart
+
+rural_summary <- pre_consult |>
+  filter(region == "rural") |>
+  group_by(prov,prenatal_consult_place) |>
+  summarise(count = n()) |>
+  mutate(per =  formattable::percent(count / sum(count), 1)) |>
+  add_column(region = "rural") |>
+  unite(col = region, prov,region)
+
+urban_summary <- pre_consult |>
+  filter(region == "urban") |>
+  group_by(prov,prenatal_consult_place) |>
+  summarise(count = n()) |>
+  mutate(per = formattable::percent(count/sum(count), 1)) |>
+  add_column(region = "urban") |>
+  unite(col = region, prov,region)
+
+# stack two tables on top of each other
+total_summary <-rbind(urban_summary,rural_summary)
+```
+
+
+```{r, plotting,out.width=700,out.height=500 }
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-align: center
+
+regions <- c("Baln Rural", "Baln Urban", "KPK Rural", "KPK Urban", "Punjab Rural", "Punjab Urban", "Sindh Rural", "Sindh Urban")
+
+ggplot(data = total_summary, aes(x = region, y = per, fill = prenatal_consult_place)) +
+  geom_col(position = "fill", stat = "identity", colour = "black") +
+  geom_text(aes(label = paste0(per)), position = position_stack(vjust = 0.5), size = 3.5) +
+  labs(x = 'Regions', y = 'Percent') + 
+  theme(legend.position = 'top',
+        legend.justification = 'center') +
+  scale_y_continuous(labels = scales::percent) +
+  scale_x_discrete(labels = regions) +
+  scale_fill_discrete(name=NULL) +
+  guides(fill = guide_legend(reverse = TRUE))
+```
+<font size="4" face = "arial" color = "black">
+
+-   3 out of 4 women in Pakistan goes for a prenatal consultation at least once in Pakistan.
+-   Only 45% of these women have access to Private hospitals for their prenatal consultation while others either go to public hospitals, are visited by Lady Health Visitor (LHV) and Lady Health Worker(LHW), or get consultation by their family members.
+-   In Rural Balochistan, 23.7% of child bearing women are not able to receive prenatal consultation by specialist health workers.
+
+</font>
+
+<font size = "3">
+Data Source : [*Pakistan Social Living Measurement 2019-2020*](https://www.pbs.gov.pk/content/pakistan-social-and-living-standards-measurement)
+</font>
+
+<div style="text-align: right;"><img src="Final-Logo.png" width="120" alt="My Image" /></div>
+
+
