@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -48,24 +48,44 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 
 </div>
-<p><img src="E:/Stats-Dev/Repositories/Exploratory-Sunday/Did-You-Know.png" class="img-fluid"></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Did-You-Know.jpg" class="img-fluid figure-img" style="width:40.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<center>
+<font size="5" face="arial" color="black"> Pakistan Prenatal Consultation Trends &amp; Statistics </font>
+</center>
 <div class="cell">
 
 </div>
-<section id="prenatal-consultation-place-by-regions" class="level2">
-<h2 class="anchored" data-anchor-id="prenatal-consultation-place-by-regions">Prenatal Consultation Place by Regions</h2>
 <div class="cell">
 
 </div>
-</section>
-<section id="statistics" class="level2">
-<h2 class="anchored" data-anchor-id="statistics">Statistics</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Pre-Post-Consultation_files/figure-html/plotting-1.png" width="700" height="500" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><font size="4" face="arial" color="black"></font></p><font size="4" face="arial" color="black">
 <ul>
-<li>For Every 3 out of 4 women in Pakistan does a prenatal consultation in Pakistan.</li>
-<li>45% of those women have access to Private hospitals while remaining either go to public hospital, visit Lady Health Worker or Doctor, or consult their family members.</li>
-<li>23.7% of child bearing women are not able to receive prenatal consultation by specialist health workers which means that these women do not have access to private or public hospitals.</li>
+<li>3 out of 4 women in Pakistan goes for a prenatal consultation at least once in Pakistan.</li>
+<li>Only 45% of these women have access to Private hospitals for their prenatal consultation while others either go to public hospitals, are visited by Lady Health Visitor (LHV) and Lady Health Worker(LHW), or get consultation by their family members.</li>
+<li>In Rural Balochistan, 23.7% of child bearing women are not able to receive prenatal consultation by specialist health workers.</li>
 </ul>
-</section>
+</font><p><font size="4" face="arial" color="black"></font></p>
+<p><font size="3"> Data Source : <a href="https://www.pbs.gov.pk/content/pakistan-social-and-living-standards-measurement"><em>Pakistan Social Living Measurement 2019-2020</em></a> </font></p>
+<div style="text-align: right;">
+<img src="Final-Logo.png" width="120" alt="My Image">
+</div>
 
 </main>
 <!-- /main column -->
@@ -110,7 +130,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -146,24 +183,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
