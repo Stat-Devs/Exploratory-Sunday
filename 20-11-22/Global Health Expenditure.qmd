@@ -1,0 +1,94 @@
+---
+format: html
+editor: visual
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(foreign)
+```
+
+```{r know, echo = FALSE, out.width = "40%", fig.align='center'}
+knitr::include_graphics("Did-You-Know.jpg")
+```
+
+<center><font size="5" face = "arial" color = "black"> Global Health Expenditure Insights (2019) </font></center>
+
+```{r data_loading}
+#| echo: false
+#| warning: false
+#| message: false
+#| cache: true
+
+dataRaw <- readxl::read_xlsx(path = "Global-Health-Data/GHED_data.xlsx", sheet = 1)
+```
+
+```{r wrangling}
+#| echo: false
+#| warning: false
+#| message: false
+
+dataClean <- dataRaw |>
+  select(year, country, che_pc_usd, gdp_pc_usd,`income group`) |>
+  rename(inc = `income group`, 
+         che = che_pc_usd,
+         gdp = gdp_pc_usd) |>
+  filter(year == "2019",
+         !is.na(che)) |>
+  mutate(log_gdp = log(gdp),
+         log_che = log(che))
+
+# Change data types
+dataClean$year <- as.numeric(dataClean$year)
+dataClean$inc <- as.factor(dataClean$inc)
+
+```
+
+```{r groubymeangdp,eval=FALSE,include=FALSE}
+#| echo: true
+#| warning: false
+#| message: false
+dataClean %>% group_by(inc) %>% summarise_at(vars(gdp), list(name = mean))
+dataClean %>% group_by(inc) %>% summarise_at(vars(che), list(name = mean))
+```
+
+
+```{r plotting,out.width=790,out.height=500}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(ggrepel)
+
+scatter_plot <- ggplot(data = dataClean, aes(x = log_gdp, y = log_che, color = inc)) + 
+  geom_point() +
+  geom_smooth(method = "loess") +
+  labs(
+       x = "GDP per capita",
+       y = "Current Health Expenditure per capita"
+       ) +
+  scale_color_manual(labels = c("High Income", "Lower Income", "Lower Middle Income", "Upper Middle Income"), values = c("blue", "red", "#00BFC4", "purple")) +
+   geom_text_repel(aes(label = country), size = 3, max.overlaps = 15 ) +
+  annotate("text", x = 7.06, y = 3.67, label = "Pakistan", size = 4) +
+  scale_x_continuous(breaks = seq(0, 12, 1), labels = c("100", "200", "300", "400", "450","475","500","1000","3000","7000","21000","60000","180000"))+
+  scale_y_continuous(breaks = seq(0, 10, 1), labels = c("10", "20", "30", "40", "55","150", "396","1090","3050","8000", "10000")) +
+  labs(colour = NULL)+ #remove legend name
+  theme(legend.position = 'top',
+        legend.justification = 'center') +
+  theme_minimal()
+scatter_plot
+```
+
+<font size="4" face = "arial" color = "black">
+
+- Global Health Spending has more than doubled over the past two decades, reaching US$ 8.5 trillion in 2019, or 9.8% of global GDP. But it was unequally distributed, with high income countries accounting for approximately 80%.  
+- Between 2009-2019 Pakistan GDP Per Capita has risen by 26.6% and Current Health Expenditure has risen by 64.2%
+- Of Pakistan's Current Health Expenditure,Out of Pocket Expenditure is 51.7% while Government Financing is 39.7%. 
+
+</font>
+
+<font size = "3"> Data Source : [*Global Health Expenditure Database (WorldBank)*](https://apps.who.int/nha/database) </font>
+
+::: {style="text-align: right;"}
+<img src="Final-Logo.png" alt="My Image" width="120"/>
+:::
