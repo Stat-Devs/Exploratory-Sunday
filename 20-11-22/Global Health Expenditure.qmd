@@ -1,0 +1,83 @@
+---
+format: html
+editor: visual
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(foreign)
+```
+
+```{r know, echo = FALSE, out.width = "40%", fig.align='center'}
+knitr::include_graphics("Did-You-Know.jpg")
+```
+
+<center><font size="5" face = "arial" color = "black"> Global Health Expenditure 
+</font></center>
+
+```{r data_loading}
+#| echo: false
+#| warning: false
+#| message: false
+#| cache: true
+
+dataRaw <- readxl::read_xlsx(path = "Global-Health-Data/GHED_data.xlsx", sheet = 1)
+```
+
+```{r wrangling}
+#| echo: false
+#| warning: false
+#| message: false
+
+dataClean <- dataRaw |>
+  select(year, country, che_pc_usd, gdp_pc_usd,`income group`) |>
+  rename(inc = `income group`, 
+         che = che_pc_usd,
+         gdp = gdp_pc_usd) |>
+  filter(year == "2019",
+         !is.na(che)) |>
+  mutate(log_gdp = log(gdp),
+         log_che = log(che))
+
+# Change data types
+dataClean$year <- as.numeric(dataClean$year)
+dataClean$inc <- as.factor(dataClean$inc)
+
+```
+
+```{r plotting,out.width=790,out.height=500}
+#| echo: false
+#| warning: false
+#| message: false
+
+scatter_plot <- ggplot(data = dataClean, aes(x = log_gdp, y = log_che, color = inc)) + 
+  geom_point() +
+  geom_smooth(method = "loess") +
+  labs(
+       x = "GDP per capita",
+       y = "Current Health Expenditure per capita"
+       ) +
+  scale_color_manual(labels = c("High Income", "Lower Income", "Lower Middle Income", "Upper Middle Income"), values = c("blue", "red", "#00BFC4", "purple")) +
+  theme(legend.position = 'top',
+        legend.justification = 'center')
+
+scatter_plot
+```
+
+
+<font size="4" face = "arial" color = "black">
+
+-   
+-   
+
+</font>
+
+<font size = "3"> Data Source : [*Global Health Expenditure Database (WorldBank)*](https://apps.who.int/nha/database) </font>
+
+
+
+::: {style="text-align: right;"}
+<img src="Final-Logo.png" alt="My Image" width="120"/>
+:::
+
+
