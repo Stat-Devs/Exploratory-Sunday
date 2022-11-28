@@ -1,0 +1,57 @@
+---
+title: "Health Financing Agents"
+author: "Sarfaraz Jamal"
+image: "Rplot.png"
+description: ""
+categories: ["Public Health"]
+date: 11/27/2022
+format: html
+editor: visual
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(foreign)
+library(readxl)
+```
+
+```{r know, echo = FALSE, out.width = "40%", fig.align='center'}
+knitr::include_graphics("Did-You-Know.jpg")
+```
+
+<center><font size="5" face = "arial" color = "black"> Health Financing Agents </font></center>
+
+```{r data_loading}
+#| echo: false
+#| warning: false
+#| message: false
+#| cache: true
+
+health_financing <- read_excel("health-financing.xlsx")
+health_financing$`%` <- round(health_financing$`%`,digits = 2)
+health_financing$Agents <- c("Government","Out of Pocket","NGOs","Other")
+
+View(health_financing)
+
+ggplot(health_financing, aes(x = "", y = `%`, fill = Agents)) +
+  geom_col(color = "white") + geom_text(aes(label = `%`),position = position_stack(vjust = 0.5)) +
+  coord_polar("y", start=0) +
+  guides(fill = guide_legend(title = "Agents")) +
+  scale_fill_brewer() +
+  theme_void() # remove background, grid, numeric labels
+
+
+```
+
+<font size="4" face = "arial" color = "black">
+
+- On average, 51.68% of total health spending is done by the patients themselves.
+- Non-Governmental Organisations do not play a significant role in financing health expenditure in Pakistan 
+
+</font>
+
+<font size = "3"> Data Source : [*National Health Accounts*](https://apps.who.int/nha/databasev) </font>
+
+::: {style="text-align: right;"}
+<img src="Final-Logo.png" alt="My Image" width="120"/>
+:::
