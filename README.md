@@ -1,4 +1,4 @@
-# Exploratory-Sunday
+# Exploratory Sunday
 
 Exploratory Sunday is a social awareness campaign initiated by StatDevs. We post weekly statistics and accompanying visualisations every Sunday concentrating on Pakistan’s demographic, healthcare and socio-economic measures. The salient feature of these posts is to see how Pakistan’s conditions stack up against Sustainable Development Goals. 
 
