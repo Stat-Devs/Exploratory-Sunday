@@ -1,8 +1,13 @@
 ---
+title: "Pakistan Prenatal Consultation Trends & Statistics"
+author: "Muhammad Uzair"
+image: "pre-post.png"
+description: " "
+categories: ["Public Health"]
+date: 11/13/2022
 format: html
 editor: visual
 ---
-
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(tidyverse)
@@ -12,11 +17,8 @@ library(foreign)
 ```{r know, echo = FALSE, out.width = "40%", fig.align='center'}
 knitr::include_graphics("Did-You-Know.jpg")
 ```
-<center>
-<font size="5" face = "arial" color = "black">
-Pakistan Prenatal Consultation Trends & Statistics
-</font>
-</center>
+
+
 
 ```{r}
 #| echo: false
@@ -48,7 +50,6 @@ levels(pre_consult$prenatal_consult_place)[levels(pre_consult$prenatal_consult_p
 
 ```
 
-
 ```{r, arraying}
 #| echo: false
 #| warning: false
@@ -76,7 +77,6 @@ urban_summary <- pre_consult |>
 total_summary <-rbind(urban_summary,rural_summary)
 ```
 
-
 ```{r, plotting,out.width=700,out.height=500 }
 #| echo: false
 #| warning: false
@@ -96,6 +96,7 @@ ggplot(data = total_summary, aes(x = region, y = per, fill = prenatal_consult_pl
   scale_fill_discrete(name=NULL) +
   guides(fill = guide_legend(reverse = TRUE))
 ```
+
 <font size="4" face = "arial" color = "black">
 
 -   3 out of 4 women in Pakistan goes for a prenatal consultation at least once in Pakistan.
@@ -104,10 +105,8 @@ ggplot(data = total_summary, aes(x = region, y = per, fill = prenatal_consult_pl
 
 </font>
 
-<font size = "3">
-Data Source : [*Pakistan Social Living Measurement 2019-2020*](https://www.pbs.gov.pk/content/pakistan-social-and-living-standards-measurement)
-</font>
+<font size = "3"> Data Source : [*Pakistan Social Living Measurement 2019-2020*](https://www.pbs.gov.pk/content/pakistan-social-and-living-standards-measurement) </font>
 
-<div style="text-align: right;"><img src="Final-Logo.png" width="120" alt="My Image" /></div>
-
-
+::: {style="text-align: right;"}
+<img src="Final-Logo.png" alt="My Image" width="120"/>
+:::

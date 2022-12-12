@@ -1,4 +1,10 @@
 ---
+title: "Global Health Expenditure Insights (2019)"
+author: "Muhammad Uzair"
+image: "Final Global Health.png"
+description: " "
+categories: ["Public Health"]
+date: 11/20/2022
 format: html
 editor: visual
 ---
@@ -12,7 +18,7 @@ library(foreign)
 knitr::include_graphics("Did-You-Know.jpg")
 ```
 
-<center><font size="5" face = "arial" color = "black"> Global Health Expenditure Insights (2019) </font></center>
+
 
 ```{r data_loading}
 #| echo: false
@@ -52,7 +58,6 @@ dataClean %>% group_by(inc) %>% summarise_at(vars(gdp), list(name = mean))
 dataClean %>% group_by(inc) %>% summarise_at(vars(che), list(name = mean))
 ```
 
-
 ```{r plotting,out.width=790,out.height=500}
 #| echo: false
 #| warning: false
@@ -81,9 +86,9 @@ scatter_plot
 
 <font size="4" face = "arial" color = "black">
 
-- Global Health Spending has more than doubled over the past two decades, reaching US$ 8.5 trillion in 2019, or 9.8% of global GDP. But it was unequally distributed, with high income countries accounting for approximately 80%.  
-- Between 2009-2019 Pakistan GDP Per Capita has risen by 26.6% and Current Health Expenditure has risen by 64.2%
-- Of Pakistan's Current Health Expenditure,Out of Pocket Expenditure is 51.7% while Government Financing is 39.7%. 
+-   Global Health Spending has more than doubled over the past two decades, reaching US\$ 8.5 trillion in 2019, or 9.8% of global GDP. But it was unequally distributed, with high income countries accounting for approximately 80%.\
+-   Between 2009-2019 Pakistan GDP Per Capita has risen by 26.6% and Current Health Expenditure has risen by 64.2%
+-   Of Pakistan's Current Health Expenditure,Out of Pocket Expenditure is 51.7% while Government Financing is 39.7%.
 
 </font>
 

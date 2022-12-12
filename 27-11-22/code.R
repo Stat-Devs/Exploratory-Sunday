@@ -2,7 +2,9 @@ library(tidyverse)
 library(foreign)
 library(readxl)
 
-health_financing <- read_excel("health-financing.xlsx")
+
+health_financing <- read_excel("Exploratory-Sunday/27-11-22/health-financing.xlsx")
+View(health_financing)
 health_financing$`%` <- round(health_financing$`%`,digits = 2)
 health_financing$Agents <- c("Government","Out of Pocket","NGOs","Other")
 

@@ -1,18 +1,36 @@
+---
+title: "Reasons for Dropping Out (Rural Pakistan)"
+author: "Sarfaraz Jamal"
+image: "rural_final.png"
+description: " "
+categories: ["Education"]
+date: 12/11/2022
+format: html
+editor: visual
+---
+
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(tidyverse)
 library(foreign)
 library(readxl)
 library(reactablefmtr)
+```
 
-school_dropouts <- read_excel("Exploratory-Sunday/11-12-22/school_dropouts.xlsx")
+```{r know, echo = FALSE, out.width = "40%", fig.align='center'}
+knitr::include_graphics("Did-You-Know.jpg")
+```
+
+
+
+
+```{r data_loading}
+#| echo: false
+#| warning: false
+#| message: false
+#| cache: true
+school_dropouts <- read_excel("school_dropouts.xlsx")
 View(school_dropouts)
-
-#school_dropouts$male_total <- c(1.8,0.4,7.5,6.3,1.0,10.8,31.9,1.3,0.5,0.1,29.4,7.8,1.3)
-
-#school_dropouts |> summarise(sum(male_total))
-
-#school_dropouts$female_total <- c(9.1,0.8,18.2,7.3,18.4,13.2,16.8,0.9,0.6,0.9,2.0,10.5,1.4)
-
-#school_dropouts |> summarise(sum(female_total))
 
 urban <- school_dropouts |> 
   select(`Reasons for not attending school`,`Male urban`,`Female urban`)
@@ -48,28 +66,6 @@ rural$Male <- rural$Male/100
 rural$Female <- rural$Female/100
 
 View(rural)
-
-urban |> 
-  reactable(
-    theme = nytimes(),
-    pagination = FALSE,
-    defaultColDef = colDef(
-      cell = data_bars(urban,
-                       fill_color = c("#FCDEC0","#7D5A50"),
-                       fill_gradient = TRUE,
-                       background = none,
-                       round_edges = TRUE,
-                       number_fmt = scales::percent,
-                       box_shadow = FALSE,
-                       force_outside = c(0,1))
-      
-                      
-    )
-            
-    
-  ) |> 
-  add_title("URBAN POPULATION")
-
 rural |> 
   reactable(
     theme = nytimes(),
@@ -90,8 +86,20 @@ rural |>
     
   ) |> 
   add_title("PAKISTAN RURAL POPULATION",font_size = 28)
+```
 
+<font size="4" face = "arial" color = "black">
 
+- Around a quarter of male students in rural Pakistan dropped out of school because they needed to earn a    living.
 
-  
+- 34% of males and 17% of females were not motivated to continue their studies.
 
+- The proportion of female students dropping out due to marriage was 15% higher than their male counterparts.
+
+</font>
+
+<font size = "3"> Data Source : [*Pakistan Demographic and Health Survey*](https://dhsprogram.com/pubs/pdf/FR354/FR354.pdf) </font>
+
+::: {style="text-align: right;"}
+<img src="Final-Logo.png" alt="My Image" width="120"/>
+:::
