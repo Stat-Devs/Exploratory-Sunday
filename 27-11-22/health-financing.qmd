@@ -1,8 +1,8 @@
 ---
 title: "Health Financing Agents"
 author: "Sarfaraz Jamal"
-image: "Rplot.png"
-description: ""
+image: "health-financing.png"
+description: " "
 categories: ["Public Health"]
 date: 11/27/2022
 format: html
@@ -18,8 +18,6 @@ library(readxl)
 ```{r know, echo = FALSE, out.width = "40%", fig.align='center'}
 knitr::include_graphics("Did-You-Know.jpg")
 ```
-
-<center><font size="5" face = "arial" color = "black"> Health Financing Agents </font></center>
 
 ```{r data_loading}
 #| echo: false
@@ -45,8 +43,8 @@ ggplot(health_financing, aes(x = "", y = `%`, fill = Agents)) +
 
 <font size="4" face = "arial" color = "black">
 
-- On average, 51.68% of total health spending is done by the patients themselves.
-- Non-Governmental Organisations do not play a significant role in financing health expenditure in Pakistan 
+-   On average, 51.68% of total health spending is done by the patients themselves.
+-   Non-Governmental Organisations do not play a significant role in financing health expenditure in Pakistan
 
 </font>
 
