@@ -9,7 +9,6 @@ format: html
 editor: visual
 ---
 
-
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(tidyverse)
 library(foreign)
@@ -20,9 +19,6 @@ library(reactablefmtr)
 ```{r know, echo = FALSE, out.width = "40%", fig.align='center'}
 knitr::include_graphics("Did-You-Know.jpg")
 ```
-
-
-
 
 ```{r data_loading}
 #| echo: false
@@ -90,11 +86,11 @@ rural |>
 
 <font size="4" face = "arial" color = "black">
 
-- Around a quarter of male students in rural Pakistan dropped out of school because they needed to earn a    living.
+-   Around a quarter of male students in rural Pakistan dropped out of school because they needed to earn a living.
 
-- 34% of males and 17% of females were not motivated to continue their studies.
+-   34% of males and 17% of females were not motivated to continue their studies.
 
-- The proportion of female students dropping out due to marriage was 15% higher than their male counterparts.
+-   The proportion of female students dropping out due to marriage was 15% higher than their male counterparts.
 
 </font>
 
