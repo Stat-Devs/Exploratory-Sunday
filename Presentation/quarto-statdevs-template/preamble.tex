@@ -1,0 +1,72 @@
+% Language and encoding settings
+\usepackage[utf8x]{inputenc}
+\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage[french]{babel}
+\usepackage{pdfpages}
+\usepackage{xcolor} %change the headings
+\usepackage{sectsty} %to get color definition
+
+
+
+
+% Color management
+\definecolor{statdevs}{RGB}{42,95,112} % statdevs
+\definecolor{statdevslight}{RGB}{127,159,175}   % statdevs light
+\definecolor{statdevsmedium}{RGB}{84,126,148}   % statdevs medium
+\definecolor{statdevsdark}{RGB}{33,38,97} % statdevs dark
+\definecolor{green}{RGB}{157,197,68} % green
+\definecolor{lightblue}{RGB}{158,214,227} %light blue
+\definecolor{darkblue}{RGB}{66,48,137} % dark blue
+\definecolor{grey}{RGB}{121,120,112}   % Grey
+\definecolor{silver}{RGB}{196,192,179} % silver
+\definecolor{red}{RGB}{142,2,0} % red
+
+\usepackage{hyperref}
+\usepackage{mwe}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=red,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor = black,
+}
+
+\AtBeginDocument{\let\maketitle\relax}
+
+
+% table of content 'content' color
+
+
+% table of content color
+\usepackage{tocloft} 
+
+\renewcommand{\cfttoctitlefont}{\Huge\color{statdevsdark}} % tocloft
+\renewcommand{\cftchapfont}{\color{statdevsdark}\large\bfseries}
+\renewcommand{\cftsecfont}{\color{statdevs}}
+
+
+
+%filling dots in TOC
+\renewcommand{\cftchapleader}{\color{statdevsdark}\cftdotfill{\cftsecdotsep}}
+\renewcommand{\cftsecleader}{\color{statdevs}\cftdotfill{\cftsecdotsep}}
+
+
+
+% heading color as statdevs
+\chapterfont{\color{statdevsdark}}  % Heading 1
+\sectionfont{\color{statdevs}}  % Heading 2
+\subsectionfont{\color{statdevs}}  % Heading 3
+\subsubsectionfont{\color{statdevs}}  % Heading 4 
+
+
+%heading fonts
+
+
+
+
+
+
+
+
+

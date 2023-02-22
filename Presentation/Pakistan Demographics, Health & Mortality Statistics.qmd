@@ -1,7 +1,10 @@
 ---
-title: "Pakistan Demographics, Health & Mortality Statistics"
-author: "Muhammad Uzair Aslam"
+title: "Pakistan Health Infrastructure Outlook"
+author: "Stat Devs"
+footer: Final-logo.png
 format: beamer
+theme: Copenhagen
+include-after-body: quarto-statdevs-template/lastPage.tex
 editor: visual
 ---
 
@@ -14,12 +17,21 @@ editor: visual
 
 -   The aim of this compaign is to raise awareness to masses about how Pakistan's conditions stack up against Sustainable Development Goals.
 
--   These posts are made using Open Source data sets such as PDHS(2017-18), PSLM(2019-20), Pakistan Census (2017) data
+-   These posts are made using Open Source data sets such as PDHS(2017-18), PSLM(2019-20), Pakistan Census (2017) data.
 
 
-## How is Pakistan Demographically distributed?{.smaller}
+## How is Pakistan demographically distributed?{.smaller}
 
 ![](Demographics-Final.png){fig-align="center"}
+
+
+## Pakistan sits in Lower Income group in Global Health Spending{.smaller}
+
+![](Final Global Health.png){fig-align="center"}
+
+## On average 52% of health financing is Out of Pocket Expenditure in Pakistan
+
+![](health-financing.png){fig-align="center"}
 
 
 
@@ -31,21 +43,17 @@ editor: visual
 ## More RHCs & BHUs are needed to cover the health disparity in Pakistan
 ![](beds.png){fig-align="center"}
 
-## Balochistan need more health expenditure due to its weak health infrastructure
+## Supply of Health Infrastructure is low in Balochistan
 
 ![](primary_health_facilities.png){fig-align="center"}
 
-## Pakistan sits in Lower Income group in Global Health Spending{.smaller}
 
-![](Final Global Health.png){fig-align="center"}
 
-## On average 52% of health financing is Out of Pocket Expenditure in Pakistan
 
-![](health-financing.png){fig-align="center"}
 
-## 23.7% of child bearing women in Rural Balochistan does not get prenatal consultation by health specialist 
+## Balochistan lacks prenatal consultation by health specialist
 
-![](Prenatal-Statistics.png){fig-align="center"}
+![](Prenatal-Statistics-crop.png){fig-align="center"}
 
 ## Call to Action
 

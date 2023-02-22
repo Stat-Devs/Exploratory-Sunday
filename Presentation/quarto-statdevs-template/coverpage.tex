@@ -1,0 +1,44 @@
+\makeatletter
+\let\inserttitle\@title
+\makeatother
+\makeatletter
+\let\insertauthor\@author
+\makeatother
+\makeatletter
+\let\insertdate\@date
+\makeatother
+
+\newgeometry{left=2cm,bottom=0.1cm}
+
+\vspace*{-4.5cm}
+
+\makebox[0pt][l]{
+\raisebox{-\totalheight}[0pt][0pt]{%
+\hspace{-2.1cm}
+\includegraphics[width=220mm]{quarto-statdevs-template/images/muqarnas.jpg}}}
+
+\vspace*{14cm}
+
+\hspace{-2.7cm}
+%\includegraphics[width=10cm]{images/cartouche.png}\par
+
+\hspace{12cm}
+\includegraphics[width=10cm]{quarto-statdevs-template/images/Final-Logo.png}\par
+\vspace*{-5cm}
+
+\hspace{-2.8cm}
+%\includegraphics[width=8cm]{_extensions/davidcarayon/inrae/ressources/Final-Logo.png}
+
+\vspace*{1cm}
+
+\hspace{-1cm}
+\setlength{\parindent}{0cm}
+\includegraphics[width=0.5cm]{quarto-statdevs-template/images/fleche-titre.png}\hspace{0.3cm}\textcolor{statdevs}{\sffamily\Huge\bfseries \inserttitle}\par\bigskip
+
+\hspace{-1cm}\textcolor{statdevs}{\sffamily \insertdate}\par %statdevs main for date
+ 
+\hspace{-1cm}\textcolor{statdevsdark}{\sffamily \Large\bfseries\insertauthor}\par %statdevsdark for authorname
+
+
+\restoregeometry
+
