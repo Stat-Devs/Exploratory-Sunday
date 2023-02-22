@@ -4,7 +4,7 @@ author: "Sarfaraz Jamal"
 image: "rural_final.png"
 description: " "
 categories: ["Education"]
-date: 12/11/2022
+date: 29/01/2023
 format: html
 editor: visual
 ---
@@ -61,14 +61,14 @@ rural <- rural |>
 rural$Male <- rural$Male/100
 rural$Female <- rural$Female/100
 
-View(rural)
-rural |> 
+
+urban |> 
   reactable(
-    theme = nytimes(),
+    theme = clean(),
     pagination = FALSE,
     defaultColDef = colDef(
-      cell = data_bars(rural,
-                       fill_color = c("#8FE3CF","#002B5B"),
+      cell = data_bars(urban,
+                       fill_color = c("#F8EDE3","#85586F"),
                        fill_gradient = TRUE,
                        background = none,
                        round_edges = TRUE,
@@ -81,7 +81,7 @@ rural |>
     
     
   ) |> 
-  add_title("PAKISTAN RURAL POPULATION",font_size = 28)
+  add_title("Top Reasons for School Dropout: Urban Pakistan",font_size = 28)
 ```
 
 <font size="4" face = "arial" color = "black">

@@ -18,8 +18,6 @@ library(foreign)
 knitr::include_graphics("Did-You-Know.jpg")
 ```
 
-
-
 ```{r}
 #| echo: false
 #| warning: false
