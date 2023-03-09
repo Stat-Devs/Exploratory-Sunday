@@ -1,0 +1,3268 @@
+                                                   PKVA7AFL                                                   
+                                                PKVA7AFL_DICT                                                 
+
+                                        PKVA7AFL.DCF                                                          
+                                    Last Modified:  11/30/2020  9:29:45 PM                                    
+
+--------------------------------------------------------------------------------------------------------------
+Level Name                    Level Label                                                  Type            Rec
+  Record Name                   Record Label                                              Value  Req  Max  Len
+--------------------------------------------------------------------------------------------------------------
+HOUSEHOLD                     Household                                                                       
+  RECORD1                       RECORD1                                                          Yes    1  956
+Level: Household                                       Record: RECORD1
+--------------------------------------------------------------------------------------------------------------
+                                                                                 Data Item            Dec Zero
+Item Name              Item Label                                     Start  Len Type Type  Occ  Dec Char Fill
+--------------------------------------------------------------------------------------------------------------
+QHCLUST           (id) Cluster number                                     1    4    N    I    1    0   No   No
+                               1:1396  
+QHNUMBER          (id) Household number                                   5    4    N    I    1    0   No   No
+QLINE             (id) Line number of individual questionnaire            9    2    N    I    1    0   No   No
+                               1:99  
+                         (record type)                                    0    0   AN    I    1    0   No   No
+QREGION                Region of residence                               11    1    N    I    1    0   No   No
+                               1  Punjab
+                               2  Sindh
+                               3  KP
+                               4  Balochistan
+                               5  GB
+                               6  AJK
+QDIST                  District                                          12    3    N    I    1    0   No   No
+                               101  Attock
+                               102  Bahawalnagar
+                               103  Bahawalpur
+                               104  Bhakkar
+                               105  Chakwal
+                               106  Chiniot
+                               107  Dera Ghazi Khan
+                               108  Faisalabad
+                               109  Gujranwala
+                               110  Gujrat
+                               111  Hafizabad
+                               112  Jhang
+                               113  Jhelum
+                               114  Kasur
+                               115  Khanewal
+                               116  Khushab
+                               117  Lahore
+                               118  Layyah
+                               119  Lodhran
+                               120  Mandi Bahauddin
+                               121  Mianwali
+                               122  Multan
+                               123  Muzaffargarh
+                               124  Nankana Sahib
+                               125  Narowal
+                               126  Okara
+                               127  Pakpattan
+                               128  Rahim Yar Khan
+                               129  Rajanpur
+                               130  Rawalpindi
+                               131  Sahiwal
+                               132  Sargodha
+                               133  Sheikhupura
+                               134  Sialkot
+                               135  Toba Tek Singh
+                               136  Vehari
+                               201  Badin
+                               202  Dadu
+                               203  Ghotki
+                               204  Hyderabad
+                               205  Jacobabad
+                               206  Jamshoro
+                               207  Karachi Central
+                               208  Karachi East
+                               210  Karachi South
+                               211  Karachi West
+                               212  Kashmore
+                               213  Khairpur
+                               214  Larkana
+                               215  Matiari
+                               216  Mirpur Khas
+                               217  Naushahro Feroze
+                               218  Sanghar
+                               219  Shahdad Kot
+                               220  Nawabshah/Shaheed Benazir Abad
+                               221  Shikarpur
+                               222  Sukkur
+                               223  Tando Alla Yar
+                               224  Tando Muhammad Khan
+                               225  Tharparkar
+                               226  Thatta
+                               227  Umer Kot
+                               228  Korangi
+                               229  Malair
+                               230  Sujawal
+                               301  Abbottabad
+                               302  Bannu
+                               303  Batagram
+                               304  Buner
+                               305  Charsadda
+                               306  Chitral
+                               307  D. I. Khan
+                               308  Hangu
+                               309  Haripur
+                               310  Karak
+                               311  Kohat
+                               312  Kohistan
+                               313  Lakki Marwat
+                               314  Lower Dir
+                               315  Malakand Protected Area
+                               316  Mansehra
+                               317  Mardan
+                               318  Nowshera
+                               319  Peshawar
+                               320  Shangla
+                               321  Swabi
+                               322  Swat
+                               323  Tank
+                               324  Tor Ghar
+                               325  Upper Dir
+                               401  Awaran
+                               402  Barkhan
+                               403  Bolan/Kachhi
+                               404  Chagai
+                               405  Dera Bugti
+                               406  Gawadar
+                               407  Harnai
+                               408  Jaffarabad
+                               409  Jhal Magsi
+                               410  Kalat
+                               411  Kech/Turbat
+                               412  Kharan
+                               413  Khuzdar
+                               414  Killa Abdullah
+                               415  Killa Saifullah
+                               416  Kohlu
+                               417  Lasbela
+                               418  Loralai
+                               419  Mastung
+                               420  Musakhel
+                               421  Nasirabad/Tamboo
+                               422  Nushki
+                               423  Panjgur
+                               424  Pishin
+                               425  Quetta
+                               426  Sherani
+                               427  Sibi
+                               428  Washuk
+                               429  Zhob
+                               430  Ziarat
+                               432  Sohbat Pur
+                               501  Astore
+                               502  Baltistan
+                               503  Diamir
+                               504  Ghanche
+                               505  Ghizer
+                               506  Gilgit
+                               507  Nagar
+                               508  Kharmang
+                               509  Hunza
+                               510  Shigar
+                               601  Islamabad
+                               701  Bajour
+                               702  Khyber
+                               703  Kurram
+                               704  Mohmand
+                               705  North Waziristan
+                               706  Orakzai
+                               707  South Waziristan
+                               801  Bagh
+                               802  Bhimber
+                               803  Hattian Bala
+                               804  Haveli
+                               805  Kotli
+                               806  Mirpur
+                               807  Muzaffarabad
+                               808  Neelum
+                               809  Poonch
+                               810  Sudhonti
+QTYPE                  Type of place of residence                        15    1    N    I    1    0   No   No
+                               1  Urban
+                               2  Rural
+QQTYPE                 Type of questionnaire                             16    1    N    I    1    0   No   No
+                               1  Verbal Autopsy
+                               2  Female
+QINTD                  Day of interview                                  17    2    N    I    1    0   No  Yes
+                               1:31  
+QINTM                  Month of interview                                19    2    N    I    1    0   No  Yes
+                               1:12  
+QINTY                  Year of interview                                 21    4    N    I    1    0   No  Yes
+                               2019  
+QINTNUM                Interviewer number                                25    4    N    I    1    0   No   No
+QRESULT                Result of individual interview                    29    1    N    I    1    0   No   No
+                               1  Completed
+                               2  Not at home
+                               3  Postponed
+                               4  Refused
+                               5  Partly completed
+                               6  Incapacitated
+                               7  Other
+QVISITS                Total number of visits                            30    1    N    I    1    0   No   No
+                               1:3  
+QLANGQ                 Language of questionnaire                         31    2    N    I    1    0   No   No
+                               1  English
+                               2  Urdu
+                               3  Sindhi
+                               4  Punjabi
+                               5  Sariaki
+                               6  Baluchi
+                               7  Pushto
+                               8  Other
+QLANGI                 Language of interview                             33    2    N    I    1    0   No   No
+                               1  English
+                               2  Urdu
+                               3  Sindhi
+                               4  Punjabi
+                               5  Sariaki
+                               6  Baluchi
+                               7  Pushto
+                               8  Other
+QLANGR                 Language of respondent                            35    2    N    I    1    0   No   No
+                               1  English
+                               2  Urdu
+                               3  Sindhi
+                               4  Punjabi
+                               5  Sariaki
+                               6  Baluchi
+                               7  Pushto
+                               8  Other
+QTRANS                 Translator used                                   37    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QSUPERV                Supervisor number                                 38    4    N    I    1    0   No   No
+QFEDIT                 Field editor number                               42    4    N    I    1    0   No   No
+QKEYER                 Data entry clerk                                  46    2    N    I    1    0   No   No
+QINTC                  Date of interview (CMC)                           48    4    N    I    1    0   No   No
+QINTCD                 Date of interview Century Day Code (CDC)          52    5    N    I    1    0   No   No
+QWEIGHT                Sample weight (6 decimals)                        57    8    N    I    1    0   No   No
+QV101                  Line number                                       65    2    N    I    7    0   No   No
+                               0     No more respondents
+                               1:50  
+QV103                  Sex                                               79    1    N    I    7    0   No   No
+                               1  Male
+                               2  Female
+QV104                  Age of respondent                                 86    2    N    I    7    0   No   No
+                               15:94  
+                               95     95+
+                           (m) 99     Missing
+QV105                  Relationship to deceased                         100    2    N    I    7    0   No   No
+                               2   Husband
+                               3   Son or daughter
+                               4   Son-in-law or daughter-in-law
+                               5   Grandchild
+                               6   Parent
+                               7   Parent-in-law
+                               8   Brother or sister
+                               9   Brother/sister-in-law
+                               10  Niece/Nephew
+                               11  Grand parent
+                               12  Aunts/uncle
+                               13  Other relative
+                               14  Adopted/foster/stepchild
+                               15  Not related
+                               16  Domestic servant
+                           (m) 99  Missing
+QV106                  Highest education passed                         114    2    N    I    7    0   No   No
+                               0      Less than class 1 completed
+                               1:10   Class 1 - class 10 (matric)
+                               11:12  Class 11 - 12
+                               13:15  Bachelors degree
+                               16     Master's degree or mbbs, phd, mphil, bsc (4 years)
+                               98     Don't know
+                           (m) 99     Missing
+QV107                  Present when first fell ill                      128    1    N    I    7    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QV108                  Present when taken to hospital                   135    1    N    I    7    0   No   No
+                               1  Yes
+                               2  No
+                               3  Not taken
+                           (m) 9  Missing
+QV109                  Present when died                                142    1    N    I    7    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QV110                  Main respondent                                  149    2    N    I    7    0   No   No
+                               0     Not eligible
+                               1:50  
+QV201H                 Start of interview (hour)                        163    2    N    I    1    0   No  Yes
+                               5:22  
+                           (m) 99    Missing
+QV201M                 Start of interview (minutes)                     165    2    N    I    1    0   No  Yes
+                               0:59  
+                           (m) 99    Missing
+QV204D                 Day of death                                     167    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    Don't know day
+QV204M                 Month of death                                   169    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+QV204Y                 Year of death                                    171    4    N    I    1    0   No  Yes
+                               1920:2019  
+QV204BD                Day of birth                                     175    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    Don't know day
+                           (m) 99    Missing
+QV204BM                Month of birth                                   177    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               98  Don't know month
+                           (m) 99  Missing
+QV204BY                Year of birth                                    179    4    N    I    1    0   No  Yes
+                               1920:2019  
+                               9998       Don't know year
+                           (m) 9998       Missing
+QV205                  Age at death                                     183    2    N    I    1    0   No   No
+                               0:94  
+                               95    95 or more
+QV206                  Was usual member or was here temporarily         185    1    N    I    1    0   No   No
+                               1  Usual member
+                               2  Here temporarily
+                           (m) 9  Missing
+QV207                  Ever attended school                             186    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV208                  Highest class completed                          187    2    N    I    1    0   No   No
+                               0      Less than class 1 completed
+                               1:10   Class 1 - class 10 (matric)
+                               11:12  Class 11 - 12
+                               13:15  Bachelors degree
+                               16     Master's degree or mbbs, phd, mphil, bsc (4 years)
+                               98     Don't know
+                           (m) 99     Missing
+QV209                  Working for wages or salary when she died        189    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV210                  Occupation                                       190    2    N    I    1    0   No   No
+                               1   Commissioned armed forces officers
+                               2   Non-commissioned armed forces officers
+                               3   Armed forces occupations, other ranks
+                               11  Chief executives, senior officials and legislators
+                               12  Administrative and commercial managers
+                               13  Production and specialised services managers
+                               14  Hospitality, retail and other services managers
+                               21  Science and engineering professionals
+                               22  Health professionals
+                               23  Teaching professionals
+                               24  Business and administration professionals
+                               25  Information and communications technology professionals
+                               26  Legal, social and cultural professionals
+                               31  Science and engineering associate professionals
+                               32  Health associate professionals
+                               33  Business and administration associate professionals
+                               34  Legal, social, cultural and related associate professionals
+                               35  Information and communications technicians
+                               41  General and keyboard clerks
+                               42  Customer services clerks
+                               43  Numerical and material recording clerks
+                               44  Other clerical support workers
+                               51  Personal service workers
+                               52  Sales workers
+                               53  Personal care workers
+                               54  Protective services workers
+                               61  Market-oriented skilled agricultural workers
+                               62  Market-oriented skilled forestry, fishery and hunting workers
+                               63  Subsistence farmers, fishers, hunters and gatherers
+                               71  Building and related trades workers, excluding electricians
+                               72  Metal, machinery and related trades workers
+                               73  Handicraft and printing workers
+                               74  Electrical and electronic trades workers
+                               75  Food processing, wood working, garment and other craft and related trades w
+                               81  Stationary plant and machine operators
+                               82  Assemblers
+                               83  Drivers and mobile plant operators
+                               91  Cleaners and helpers
+                               92  Agricultural, forestry and fishery labourers
+                               93  Labourers in mining, construction, manufacturing and transport
+                               94  Food preparation assistants
+                               95  Street and related sales and service workers
+                               96  Refuse workers and other elementary workers
+                               97  Other
+                           (m) 99  Missing
+QV211                  Mother tongue                                    192    2    N    I    1    0   No   No
+                               1   Urdu
+                               2   Punjabi
+                               3   Sindhi
+                               4   Pushto
+                               5   Balochi
+                               6   English
+                               7   Barauhi
+                               8   Siraiki
+                               9   Hindko
+                               10  Kashmiri
+                               11  Shina
+                               12  Brushaski
+                               13  Wakhi
+                               14  Chitrali/ khwar
+                               15  Balti
+                               16  Pahari
+                               17  Potowari
+                               18  Marwari
+                               19  Farsi
+                               96  Other
+                           (m) 99  Missing
+QV212                  Marital status                                   194    1    N    I    1    0   No   No
+                               1  Married
+                               2  Divorced
+                               3  Widowed
+                               4  Separated
+                               5  Never married
+                           (m) 9  Missing
+QV214                  Age of husband at the time of her death          195    2    N    I    1    0   No   No
+                               15:94  
+                               95     95+
+                               98     Don't know
+                           (m) 99     Missing
+QV215                  Husband ever attended school                     197    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV216                  Husband highest class completed                  198    2    N    I    1    0   No   No
+                               0      Less than class 1 completed
+                               1:10   Class 1 - class 10 (matric)
+                               11:12  Class 11 - 12
+                               13:15  Bachelors degree
+                               16     Master's degree or mbbs, phd, mphil, bsc (4 years)
+                               98     Don't know
+                           (m) 99     Missing
+QV217                  Husband's occupation                             200    2    N    I    1    0   No   No
+                               1   Commissioned armed forces officers
+                               2   Non-commissioned armed forces officers
+                               3   Armed forces occupations, other ranks
+                               11  Chief executives, senior officials and legislators
+                               12  Administrative and commercial managers
+                               13  Production and specialised services managers
+                               14  Hospitality, retail and other services managers
+                               21  Science and engineering professionals
+                               22  Health professionals
+                               23  Teaching professionals
+                               24  Business and administration professionals
+                               25  Information and communications technology professionals
+                               26  Legal, social and cultural professionals
+                               31  Science and engineering associate professionals
+                               32  Health associate professionals
+                               33  Business and administration associate professionals
+                               34  Legal, social, cultural and related associate professionals
+                               35  Information and communications technicians
+                               41  General and keyboard clerks
+                               42  Customer services clerks
+                               43  Numerical and material recording clerks
+                               44  Other clerical support workers
+                               51  Personal service workers
+                               52  Sales workers
+                               53  Personal care workers
+                               54  Protective services workers
+                               61  Market-oriented skilled agricultural workers
+                               62  Market-oriented skilled forestry, fishery and hunting workers
+                               63  Subsistence farmers, fishers, hunters and gatherers
+                               71  Building and related trades workers, excluding electricians
+                               72  Metal, machinery and related trades workers
+                               73  Handicraft and printing workers
+                               74  Electrical and electronic trades workers
+                               75  Food processing, wood working, garment and other craft and related trades w
+                               81  Stationary plant and machine operators
+                               82  Assemblers
+                               83  Drivers and mobile plant operators
+                               91  Cleaners and helpers
+                               92  Agricultural, forestry and fishery labourers
+                               93  Labourers in mining, construction, manufacturing and transport
+                               94  Food preparation assistants
+                               95  Street and related sales and service workers
+                               96  Refuse workers and other elementary workers
+                               98  Don't know
+                               97  Other
+                           (m) 99  Missing
+QV217A                 Death related to complications of pregnancy or   202    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVELIG                 VA eligibility                                   203    1    N    I    1    0   No   No
+                               1  Eligible for VA
+                               2  Not eligible based on date of death
+                               3  Not eligible based on age of death
+QV204BC                Date of birth (CMC)                              204    4    N    I    1    0   No   No
+QV204BF                Date flag for Q204BC                             208    1    N    I    1    0   No   No
+                               0  Ruled ineligible for survey
+                               1  Month and year
+                               2  Month and age -y imp
+                               3  Year and age - m imp
+                               4  Y & age - y ignored
+                               5  Year - a, m imp
+                               6  Age - y, m imp
+                               7  Month - a, y imp
+                               8  None - all imp
+QV204C                 Date of death (CMC)                              209    4    N    I    1    0   No   No
+QV204F                 Date flag for Q204C                              213    1    N    I    1    0   No   No
+                               0  Ruled ineligible for survey
+                               1  M of death and Y of death
+                               2  Y of death, Age of Death, Y of Birth, M of Birth - M of death imputed
+                               3  Y of death, Age of death, Year of birth - M of death imputed
+                               4  Y of death, Age of death, M of birth - M of death imputed
+                               5  Y of death, Age of death - M of death imputed
+                               6  Y of death - M of death imputed
+                               7  None - Y of death, M of death imputed
+                               8  Other
+QV204CD                Date of death Century Day Code (CDC)             214    5    N    I    1    0   No   No
+QV204DI                Imputed day of death                             219    2    N    I    1    0   No   No
+                               1:31  
+QV301                  Ever given birth                                 221    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV302                  Live children she had                            222    2    N    I    1    0   No   No
+                               0     None
+                               1:20  
+QV303A                 Living children still alive                      224    2    N    I    1    0   No   No
+                               0     None
+                               1:40  
+QV303B                 Boys still alive                                 226    2    N    I    1    0   No   No
+                               0     None
+                               1:20  
+QV303C                 Girls still alive                                228    2    N    I    1    0   No   No
+                               0     None
+                               1:20  
+QV304                  Any abortion,miscarriage,stillbirth              230    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV305A                 Number of abortions                              231    2    N    I    1    0   No   No
+                               0:20  
+QV305B                 Number of stillbirths                            233    2    N    I    1    0   No   No
+                               0:20  
+QV305C                 Number of miscarriages                           235    2    N    I    1    0   No   No
+                               0:20  
+QV305D                 Number of pregnancy losses                       237    2    N    I    1    0   No   No
+                               1:20  
+QV307                  Ever had a caesarean section operation           239    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV307A                 Number of caesarean sections                     240    1    N    I    1    0   No   No
+                               1:7  
+                               8    Don't know
+                           (m) 9    Missing
+QV308                  Had a pregnancy during last 3 years of her life  241    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV309U                 How long before her death the last pregnancy en  242    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               3  Years
+                               9  Special answers
+QV309N                 How long before her death the last pregnancy en  243    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV310                  Outcome of last pregnancy                        245    1    N    I    1    0   No   No
+                               1  Live birth
+                               2  Still birth
+                               3  Miscarriage
+                               4  Abortion
+                               8  Don't know
+                           (m) 9  Missing
+QV311                  Last born still alive                            246    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV312                  Age of child                                     247    2    N    I    1    0   No   No
+                               0:7  
+                           (m) 99   Missing
+QV313U                 How old was the child when died (units)          249    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               3  Years
+                               9  Special answers
+QV313N                 How old was the child when died (number)         250    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV314U                 How long after last birth/delivery/miscarriage/  252    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               3  Years
+                               9  Special answers
+QV314N                 How long after last birth/delivery/miscarriage/  253    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV315                  Was pregnant when she died                       255    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV316                  Months of pregnant when she died                 256    2    N    I    1    0   No   No
+                               0:10  
+                               98    Don't know
+                           (m) 99    Missing
+QV318                  Died before labour pains/before birth or during  258    1    N    I    1    0   No   No
+                               1  Before labour pains began
+                               2  After labour pains began but before birth
+                               3  During delivery/abortion/miscarriage
+                               4  Before delivery of placenta
+                               5  During pregnancy
+                               8  Don't know
+                           (m) 9  Missing
+QV321                  Died within 40 days of delivery, abortion or mi  259    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV501                  Place of death                                   260    1    N    I    1    0   No   No
+                               1  Hospital/clinic
+                               2  Husband's home
+                               3  Her parent's home
+                               4  In-transit
+                               5  Other
+                               8  Don't know
+                           (m) 9  Missing
+QV502                  Hospital name                                    261    1    N    I    1    0   No   No
+                               6  Hospital name
+QV503                  Anyone at the hospital/clinic tell you why she   262    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV504                  Reason given by the hospital/clinic              263    1    N    I    1    0   No   No
+                               6  Reasons given by the hospital
+QV505                  Main cause of her death                          264    1    N    I    1    0   No   No
+                               6  Cause of death
+QV506A                 High blood pressure                              265    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV506B                 Sugar/diabetes                                   266    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV506C                 Epilepsy                                         267    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV506D                 TB                                               268    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV506E                 Hearth disease                                   269    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV506F                 Blood disease                                    270    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV506G                 Asthma                                           271    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV506H                 Severe anemia                                    272    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV506I                 Jaundice                                         273    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV506J                 Hepatitis                                        274    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV506K                 Hiv/Aids                                         275    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV506L                 Cancer                                           276    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV506X                 Other disease                                    277    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV507                  Ever hospitalized                                278    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV508U                 How long before her death the last pregnancy en  279    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               3  Years
+                               9  Special answers
+QV508N                 How long before her death the last pregnancy en  280    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV509                  Reason of last hospitalization                   282    1    N    I    1    0   No   No
+                               6  Reason of last hospitalization
+QV510                  Had any operation before she died                283    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV510A                 Operation type                                   284    1    N    I    1    0   No   No
+                               6  Operation type
+QV511                  Had fever                                        285    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV511AU                Fever duration  (units)                          286    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV511AN                Fever duration (number)                          287    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV511B                 Was the fever continuous or on and off           289    1    N    I    1    0   No   No
+                               1  Continuous
+                               2  On and off
+                               8  Don't know
+                           (m) 9  Missing
+QV512                  Was she breathless doing light work              290    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV512A                 Was she breathless when was lying down           291    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV513                  Had rapid heart beat (palpitations)              292    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV514                  Had wheezing                                     293    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV515                  Had cough                                        294    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV515AU                Duration of cough (units)                        295    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV515AN                Duration of cough (number)                       296    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV515B                 Cough produce sputum                             298    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV515C                 Cough blood                                      299    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV516                  Had chest pain                                   300    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV516AU                Duration of chest pain (units)                   301    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV516AN                Duration of chest pain (number)                  302    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV516B                 Chest pain severity                              304    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+                           (m) 9  Missing
+QV516C                 Chest pain started suddenly or gradually         305    1    N    I    1    0   No   No
+                               1  Suddenly
+                               2  Gradually
+                               8  Don't know
+                           (m) 9  Missing
+QV516D                 Pain at or near the center of the chest          306    1    N    I    1    0   No   No
+                               1  Near sternum
+                               2  Somewhere else/all over
+                               8  Don't know
+                           (m) 9  Missing
+QV517                  Had diarrhea (loose motions)                     307    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV517A                 Times had loose motions                          308    2    N    I    1    0   No   No
+                               0:30  
+                               98    Don't know
+                           (m) 99    Missing
+QV517B                 Had blood in the stools                          310    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV518                  Had poor appetite or loss of appetite            311    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV518AU                Duration of appetite lost (units)                312    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV518AN                Duration of appetite lost (number)               313    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV520                  Had difficulty in swallowing                     315    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV520A                 Had pain in swallowing                           316    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV521                  Had headache                                     317    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV521AU                Duration of headache (units)                     318    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV521AN                Duration of headache (number)                    319    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV522                  Had blood in urine                               321    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV522AU                Duration passed blood in urine (units)           322    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV522AN                Duration passed blood in urine (number)          323    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV523                  Had pain while urinating                         325    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV523AU                Duration of pain when urinating (units)          326    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV523AN                Duration of pain when urinating (number)         327    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV524                  Unabled to pass urine                            329    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV525                  Urinated many times in a day                     330    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV526                  Had any type of pain anywhere in the body        331    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV527                  Had abdominal pain                               332    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV527AU                Duration of abdominal pain (units)               333    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV527AN                Duration of abdominal pain (number)              334    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV527B                 Abdominal pain severity                          336    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+                           (m) 9  Missing
+QV527C                 Abdominal pain location                          337    1    N    I    1    0   No   No
+                               1  Upper abdomen
+                               2  Lower abdomen
+                               3  All over the abdomen
+                               8  Don't know
+                           (m) 9  Missing
+QV528                  Had abdominal distension                         338    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV528AU                Duration of abdomen distended (units)            339    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV528AN                Duration of abdomen distended (number)           340    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV528B                 Distension come rapidly or slowly                342    1    N    I    1    0   No   No
+                               1  Rapidly, within few days
+                               2  Slowly, over weeks
+                               8  Don't know
+                           (m) 9  Missing
+QV529                  Had mass in her abdomen                          343    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV530                  Had vomiting                                     344    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV530AU                Duration of vomiting (units)                     345    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV530AN                Duration of vomiting (number)                    346    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV530B                 Vomited blood                                    348    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV531                  Became mentally confused                         349    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV532                  Lost consciousness                               350    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV532AU                Duration of remained unconscious (units)         351    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV532AN                Duration of remained unconscious (number)        352    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV532B                 Became unconscious suddenly or gradually         354    1    N    I    1    0   No   No
+                               1  Suddenly
+                               2  Gradually
+                               8  Don't know
+                           (m) 9  Missing
+QV533                  Became paralyze                                  355    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV533AU                Duration of paralysis (units)                    356    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV533AN                Duration of paralysis (number)                   357    2    N    I    1    0   No  Yes
+                               0:90  
+                               97    Lasted till death
+                               98    Don't know
+                           (m) 99    Missing
+QV533B                 Paralysis on one side or both sides of body      359    1    N    I    1    0   No   No
+                               1  One side only
+                               2  Both sides
+                               8  Don't know
+                           (m) 9  Missing
+QV534                  Had stiffness in her whole body                  360    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV535                  Had neck pain                                    361    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV536                  Had convulsions                                  362    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV536AU                Duration of convulsions (units)                  363    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV536AN                Duration of convulsions (number)                 364    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV536B                 Times a day had fits                             366    2    N    I    1    0   No   No
+                               0:60  
+                               98    Don't know
+                           (m) 99    Missing
+QV537                  Had ulcer or swelling/lump in the breast         368    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV538                  Had vaginal bleeding                             369    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV538AU                Duration of bleeding (units)                     370    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV538AN                Duration of bleeding (number)                    371    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV538B                 Bleeding persist until she died                  373    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV539                  Had abnormal vaginal discharge                   374    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV540                  Had swelling on her ankles                       375    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV541                  Had swelling or puffiness on her hands           376    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV541AU                Duration of had swelling on her hands and/or fa  377    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV541AN                Duration of had swelling on her hands and/or fa  378    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV542                  Lost weight                                      380    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV543                  Had sores in her mouth                           381    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV544                  Had skin disease                                 382    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV545                  Looked pale                                      383    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV545A                 Had jaundice                                     384    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV546                  Were eyes yellowish                              385    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV546AU                Duration of had yellow eyes (units)              386    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV546AN                Duration of had yellow eyes (number)             387    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV547                  Had blurred vision                               389    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV548                  Had difficulty in opening her mouth              390    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV549                  Had difficulty in passing stools or constipatio  391    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV550                  Felt dizzy                                       392    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV551                  Had general weakness or fatigue                  393    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV551AU                Duration of had weakness (units)                 394    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV551AN                Duration of had weakness (number)                395    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV551B                 Had light flashes before her eyes closed at nig  397    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV551C                 Complained of double vision                      398    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV552                  Had any ulcers on her body                       399    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV553                  Other symptoms                                   400    1   AN    I    7    0   No   No
+                               A  Symptom
+                               B  Symptom
+                               C  Symptom
+                               D  Symptom
+                               E  Symptom
+                               F  Symptom
+                               Y  No more/none
+QV554                  People though had an evil eye or shadow          407    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV555                  Faith healer called or amulets given             408    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV556                  Spiritual healing details                        409    1    N    I    1    0   No   No
+                               6  Spiritual healing details
+QV602U                 How long before she died the fever start (units  410    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               4  Months
+                               9  Special answers
+QV602N                 How long before she died the fever start (numbe  411    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV602A                 When did the fever start                         413    1    N    I    1    0   No   No
+                               1  Before child birth/abortion
+                               2  After child birth/abortion
+                               7  Not applicable
+                               8  Don't know/remember
+                           (m) 9  Missing
+QV602BU                How long before/after childbirth, miscarriage o  414    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               4  Months
+                               9  Special answers
+QV602BN                How long before/after childbirth, miscarriage o  415    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV603U                 How long did it last (units)                     417    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               4  Months
+                               9  Special answers
+QV603N                 How long did it last (number)                    418    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV604                  Fever high                                       420    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV605                  Fever with chills                                421    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV606                  Prescribed antimalarial tablets for fever and c  422    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV607                  Colour changed during last illness               423    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV607A                 What was the color                               424    1    N    I    1    0   No   No
+                               1  Pallor
+                               2  Jaundiced
+                               3  Blue
+                           (m) 9  Missing
+QV608                  Vomiting during last illness                     425    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV608AU                How long before she died the vomiting start (un  426    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               4  Months
+                               9  Special answers
+QV608AN                How long before she died the vomiting start (nu  427    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV608B                 Had severe body aches during fever               429    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV609                  Ever vomited pure blood                          430    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV610                  Had any difficulty with urination                431    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV610AA                Unable to pass urine                             432    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV610AB                Too frequent urination                           433    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV610AC                Painful urination                                434    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV610AD                Back pain with fever                             435    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV610AE                Blood in urine                                   436    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV610AX                Other urination difficulty                       437    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV613                  Had convulsion with fever                        438    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV615U                 How long before she died the cough start (units  439    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               4  Months
+                               9  Special answers
+QV615N                 How long before she died the cough start (numbe  440    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV616                  Sputum when coughed                              442    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV617                  Blood in it                                      443    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV617A                 How much blood did the sputum contain            444    1    N    I    1    0   No   No
+                               1  Few dark specks
+                               2  Streaks of blood
+                               3  Frank blood
+                           (m) 9  Missing
+QV618                  Lost weight during illness                       445    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV620                  Was she short of breath                          446    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV620AU                How long was short of breath (units)             447    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               4  Months
+                               9  Special answers
+QV620AN                How long was short of breath (number)            448    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV622                  Kind of pain                                     450    1    N    I    1    0   No   No
+                               1  Continuous
+                               2  Intermittent
+                               3  Very intensive
+                               4  Increasing in severity
+                               6  Other
+                           (m) 9  Missing
+QV623                  Pain location                                    451    7   AN    I    1    0   No   No
+                               A        Head
+                               B        Abdomen
+                               C        Chest
+                               D        Breast
+                               E        Legs
+                               F        All over
+                               G        Back pain
+                               X        Other
+QV624U                 How long before she died did the pain start (un  458    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               4  Months
+                               9  Special answers
+QV624N                 How long before she died did the pain start (nu  459    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV625U                 How long did the pain last (units)               461    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               4  Months
+                               9  Special answers
+QV625N                 How long did the pain last (number)              462    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV625A                 Had pain in upper abdomen                        464    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV625B                 When did the pain start                          465    1    N    I    1    0   No   No
+                               1  Before labour
+                               2  At time of labour
+                               3  At the day of delivery
+                               4  1 day after delivery
+                               5  2 days after delivery
+                               6  3 days or more after delivery
+                               7  Not applicable
+                               8  Don't know/don't remember
+                           (m) 9  Missing
+QV626                  Pain in abdomen                                  466    1    N    I    1    0   No   No
+                               6  Pain in abdomen
+QV627                  Any pain in the lower abdomen                    467    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV628                  Pain was accompanied by fever                    468    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV629                  Fever severity                                   469    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  High
+                               8  Don't know
+                           (m) 9  Missing
+QV630                  Pain was accompanied by vomiting                 470    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV633                  Had a history of convulsions                     471    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV634                  Had convulsions in her last illness              472    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV634AU                How long before death had convulsions (units)    473    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               4  Months
+                               9  Special answers
+QV634AN                How long before death had convulsions (number)   474    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV635                  Had high blood pressure                          476    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV636                  Had severe headache                              477    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV637                  Had change in her vision                         478    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV638                  State of consciousness                           479    1    N    I    1    0   No   No
+                               6  State of consciousness
+QV638A                 Had history of convulsion or epilepsy            480    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV638B                 Times had convulsions                            481    2    N    I    1    0   No   No
+                               0:30  
+                               98    Don't know
+                           (m) 99    Missing
+QV638D                 When did convulsions start                       483    1    N    I    1    0   No   No
+                               1  1st trimester
+                               2  2nd trimester
+                               3  3rd trimester
+                               8  Don't know
+                           (m) 9  Missing
+QV638E                 Duration of convulsions                          484    1    N    I    1    0   No   No
+                               1  About 1 minute
+                               2  Less than 5 minutes
+                               3  5 minutes or more
+                               8  Don't know
+                           (m) 9  Missing
+QV638F                 Convulsions restricted to one part or the whole  485    1    N    I    1    0   No   No
+                               1  Focal
+                               2  Generalised
+                               8  Don't know
+                           (m) 9  Missing
+QV640A                 Swelling in abdomen                              486    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV640B                 Swelling in face                                 487    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV640C                 Swelling in legs and feet                        488    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV640D                 Swelling in whole body                           489    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV641U                 How long before she died she have this swelling  490    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               4  Months
+                               9  Special answers
+QV641N                 How long before she died she have this swelling  491    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV642U                 When did the swelling start in relation to deli  493    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               4  Months
+                               9  Special answers
+QV642N                 When did the swelling start in relation to deli  494    2    N    I    1    0   No  Yes
+                               0:90  
+                               97    Not applicable
+                               98    Don't know
+                           (m) 99    Missing
+QV643                  Was she short of breath                          496    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV644                  Colour changed during last illness               497    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV644A                 Had yellowness of skin of face                   498    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV645                  Had any urinary problem                          499    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV645AA                Unabled to pass urine                            500    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV645AB                Too frequent urination                           501    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV645AC                Painful urination                                502    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV645AD                Blood in urine                                   503    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV645AX                Other urinary problem                            504    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV702                  Did see anyone for antenatal care                505    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV703                  Who did she see for antenatal care               506    9   AN    I    1    0   No   No
+                               A          Obstetrician/specialist
+                               B          Doctor
+                               C          Nurse/midwife/LHV
+                               D          Community midwife
+                               E          Dai-tba
+                               F          Lady h.worker
+                               G          Homeopath
+                               H          Hakim
+                               I          Dispenser/compounder
+                               X          Other
+QV704                  Did she go because she had a problem or went fo  515    1    N    I    1    0   No   No
+                               1  For problem
+                               2  For check-up only
+                               8  Don't know
+                           (m) 9  Missing
+QV705                  What was the problem she went for                516    1    N    I    1    0   No   No
+                               6  What was the problem
+QV706                  Month of pregnant at first health provider visi  517    2    N    I    1    0   No   No
+                               0:10  
+                               98    Don't know
+                           (m) 99    Missing
+QV707                  Times saw a health provider                      519    2    N    I    1    0   No   No
+                               0:20  
+                               98    Don't know
+                           (m) 99    Missing
+QV708                  Referred to a specialist                         521    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV709                  Reason didn't sought care for ANC                522   14   AN    I    1    0   No   No
+                               A               Not necessary
+                               B               Costs too much
+                               C               Too far
+                               D               No transport
+                               E               No one to go with
+                               F               Service not good
+                               G               No time to go
+                               H               Did not know where to go
+                               I               Did not want to see a male doctor
+                               J               Long waiting time
+                               K               Not allowed to go
+                               X               Other
+                               Z               Don't know
+QV710                  During last pregnancy had an injection to preve  536    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV711                  During last pregnancy blood pressure was measur  537    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV712                  Blood pressure                                   538    1    N    I    1    0   No   No
+                               1  Normal
+                               2  High
+                               3  Low
+                               8  Don't know
+                           (m) 9  Missing
+QV713                  Prescribed medicines for blood pressure          539    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV714                  Using family planning method before became preg  540    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV715                  Wanted pregnancy                                 541    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV716                  Tried to end the pregnancy                       542    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV717                  Action take to end the pregnancy                 543    1    N    I    1    0   No   No
+                               1  Went for abortion
+                               2  Took drugs
+                               3  Inserted object into vagina
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+QV718                  Went for help to end the pregnancy               544    2    N    I    1    0   No   No
+                               1   Obstetrician/specialist
+                               2   Doctor
+                               3   Nurse/midwife/LHV
+                               4   Community midwife
+                               5   Dai-tba
+                               6   Lady h.worker
+                               7   Homeopath
+                               8   Hakim
+                               9   Dispenser/compounder
+                               96  Other
+                           (m) 99  Missing
+QV720                  Had a foul-smelling discharge after miscarriage  546    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV721                  Had fever after miscarriage/abortion             547    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV722                  Had abdominal distension after miscarriage/abor  548    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV726                  Had bleeding from vagina                         549    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV727                  Bleeding wet her clothes                         550    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV728                  Bleeding wet the bed                             551    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV729                  Was much blood as to wet the floor               552    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV730                  Pain while bleeding                              553    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV731                  Bleeding contains clots                          554    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV732                  Examined internally during last pregnancy        555    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV733                  Vaginal examination cause any bleeding           556    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV734                  Bleeding persisted until she died                557    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               7  Not applicable
+                               8  Don't know
+                           (m) 9  Missing
+QV802                  Had bleeding from vagina                         558    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV803                  Bleeding started before or after the birth/deli  559    1    N    I    1    0   No   No
+                               1  Before
+                               2  After
+                               8  Don't know
+                           (m) 9  Missing
+QV804                  Pain while bleeding                              560    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV805                  Pain started before the labor pains              561    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV806                  Place of delivery                                562    2    N    I    1    0   No   No
+                               11  Her home
+                               12  Other home
+                               21  Govt.hospital
+                               22  RHC/MCH
+                               26  Other public
+                               31  Pvt. hospital/clinic
+                               36  Other private med.
+                               96  Other
+                               97  Did not delivery
+                           (m) 99  Missing
+QV807                  Assistance at delivery                           564    2    N    I    1    0   No   No
+                               1   Obstetrician/specialist
+                               2   Doctor
+                               3   Nurse/midwife/LHV
+                               4   Community midwife
+                               5   Dai-tba
+                               6   Lady h.worker
+                               7   Homeopath
+                               8   Hakim
+                               9   Dispenser/Compounder
+                               10  Relatives/friends
+                               96  Other
+                           (m) 99  Missing
+QV808                  Any instrument used to assist delivery           566    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV808A                 Death reason confirmation                        567    1    N    I    1    0   No   No
+                               1  During labour
+                               2  After child birth
+QV808B                 How was the delivery                             568    1    N    I    1    0   No   No
+                               1  Normal
+                               2  Assisted vaginal
+                               3  Caesarean section
+                           (m) 9  Missing
+QV809                  Vagina was cut to make room                      569    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV810                  Tear in vagina after last delivery               570    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV811                  Birth attendant examined vagina using hands or   571    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV812                  Water bag broken before the labor pains          572    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV813                  Duration of labor                                573    2    N    I    1    0   No   No
+                               0:72  Hours
+                               98    Don't know
+                           (m) 99    Missing
+QV814                  Given any drugs before or during labor           575    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV815                  Drugs given                                      576    1    N    I    1    0   No   No
+                               1  Expedite delivery of baby
+                               2  Expedite placenta coming
+                               3  To ease pain
+                               4  To reduce bleeding
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+QV816                  Had a lot of bleeding before delivery            577    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV817                  Bleeding wet her clothes                         578    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV818                  Bleeding wet the bed                             579    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV819                  Was much blood as to wet the floor               580    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV820                  Died before or after baby was born               581    1    N    I    1    0   No   No
+                               1  Before
+                               2  After
+                               8  Don't know
+                           (m) 9  Missing
+QV821                  Difficulty delivering the baby                   582    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV822                  Part of the baby came out first                  583    1    N    I    1    0   No   No
+                               1  Head
+                               2  Legs
+                               3  Shoulder
+                               4  Arms
+                               5  Caesarean section
+                               8  Don't know
+                           (m) 9  Missing
+QV823                  Placenta came out                                584    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV824U                 How long after the baby came the placenta came   585    1    N    I    1    0   No  Yes
+                               1  Minutes
+                               2  Hours
+                               9  Special answers
+QV824N                 How long after the baby came the placenta came   586    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV825                  All the placenta came out                        588    1    N    I    1    0   No   No
+                               1  All
+                               2  Part
+                               8  Don't know
+                           (m) 9  Missing
+QV826                  Had a lot of bleeding after delivery             589    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV827                  Bleeding wet her clothes                         590    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV828                  Bleeding wet the bed                             591    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV829                  Was much blood as to wet the floor               592    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV830                  Had a foul-smelling discharge after baby was bo  593    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV831                  Had a pain in legs after baby was born           594    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV832                  Had fever after baby was born                    595    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV833U                 How long after delivery the fever started (unit  596    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               9  Special answers
+QV833N                 How long after delivery the fever started (numb  597    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV834                  Had any fits or rigors with the fever            599    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV835                  Fits stopped after the baby was born             600    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV836U                 Fever duration  (units)                          601    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               9  Special answers
+QV836N                 Fever duration (number)                          602    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV837                  Had fever when she died                          604    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV838                  Color of eyes yellow after the baby was born     605    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV839                  Birth attendant examined vagina using hands or   606    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV840                  Received a blood transfusion                     607    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV841                  When got blood transfusion                       608    1    N    I    1    0   No   No
+                               1  Before labour
+                               2  During childbirth
+                               3  After childbirth
+                               4  Did not get blood transfusion
+                               8  Don't know
+                           (m) 9  Missing
+QV901                  Had serious accident or injury                   609    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV902                  Type of accident or injury                       610    2    N    I    1    0   No   No
+                               1   Road / train accident
+                               2   Fall
+                               3   Drowning
+                               4   Severe burns / acid burns
+                               5   Poisoning
+                               6   Suffocation
+                               7   Cut / stabbed
+                               8   Beaten / punched / kicked
+                               9   Rape
+                               10  Shot with gun
+                               11  Dog bite
+                               12  Snake bite
+                               13  Insect bite
+                               14  Due to electrical shock/current
+                               15  Suicide
+                               96  Other
+                           (m) 99  Missing
+QV903U                 How long before she died the accident/injury ha  612    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+QV903N                 How long before she died the accident/injury ha  613    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV904                  Hurt intentionally or was an accident            615    1    N    I    1    0   No   No
+                               1  Hurt herself intentionally
+                               2  Someone hurt her
+                               3  Accident
+                               8  Don't know
+                           (m) 9  Missing
+QV905                  Was trying to commit suicide                     616    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV906                  Was the injury the main cause of death or contr  617    1    N    I    1    0   No   No
+                               1  Main cause
+                               2  Contributed
+                               3  Not important
+                               8  Don't know
+                           (m) 9  Missing
+QV1001U                How long after having symptoms a serious proble  618    1    N    I    1    0   No  Yes
+                               0  Immediately
+                               1  Hours
+                               2  Days
+                               3  Months
+                               9  Special answers
+QV1001N                How long after having symptoms a serious proble  619    2    N    I    1    0   No  Yes
+                               0:90  
+                               95    Died immediately
+                               98    Don't know
+                           (m) 99    Missing
+QV1002                 How serious the family perceived this complicat  621    1    N    I    1    0   No   No
+                               1  Not serious
+                               2  Somewhat serious
+                               3  Very serious
+                               4  Life threatening
+                           (m) 9  Missing
+QV1003                 Family thought she could have died because of h  622    1    N    I    1    0   No   No
+                               1  Thought she could die
+                               2  Did not think she could die
+                           (m) 9  Missing
+QV1004                 Sought treatment for last illness                623    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1005                 Reasons didn't seek for treatment                624   13   AN    I    1    0   No   No
+                               A              No treatment necessary
+                               B              No treatment customary
+                               C              Cost too much
+                               D              Too far
+                               E              No transport
+                               F              No one to accompany
+                               G              Family did not allow
+                               H              Good care at home
+                               I              Did not know where to go
+                               J              No time to go
+                               K              Have to go to a male doctor
+                               L              Did not realize seriousness
+                               M              Death
+                               X              Other
+                               Z              Don't know
+QV1006                 Who was involved in decision that should not go  637   11   AN    I    1    0   No   No
+                               A            Deceased herself
+                               B            Husband
+                               C            Mother in law/father in law
+                               D            Mother / father
+                               E            Sister / sister in law
+                               F            Other husband's family
+                               G            Deceased's family members
+                               H            Relatives
+                               I            Friends /neighbors
+                               J            Dai / LHV / fieldworker
+                               X            Other
+                               Y            No one
+                               Z            Don't know
+QV1007                 From whom received treatment                     648   10   AN    I    1    0   No   No
+                               A           Obstetrician/specialist
+                               B           Doctor
+                               C           Nurse/midwife/LHV
+                               D           Community midwife
+                               E           Dai-tba
+                               F           Lady h.worker
+                               G           Homeopath
+                               H           Hakim
+                               I           Dispenser/compounder
+                               J           Spiritual healing
+                               X           Other
+QV1008                 Place of treatment                               658    8   AN    I    1    0   No   No
+                               A         Her home
+                               B         Other home
+                               C         Govt.hospital
+                               D         RHC/MCH
+                               E         Other public
+                               F         Pvt. hospital/clinic
+                               G         Other private med.
+                               X         Other
+                               Y         No one
+                               Z         Don't know
+QV1009                 Who was involved in decision that should go for  666   11   AN    I    1    0   No   No
+                               A            Deceased herself
+                               B            Husband
+                               C            Mother in law/father in law
+                               D            Mother / father
+                               E            Sister / sister in law
+                               F            Other husband's family
+                               G            Deceased's family members
+                               H            Relatives
+                               I            Friends /neighbors
+                               J            Dai / LHV / fieldworker
+                               X            Other
+                               Y            No one
+                               Z            Don't know
+QV1010U                How long after the problem was recognized it wa  677    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Months
+                               9  Special answers
+QV1010N                How long after the problem was recognized it wa  678    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV1011                 Tried to go immediately after decided to go for  680    1    N    I    1    0   No   No
+                               1  Yes, tried to go immediately/already at health facility
+                               2  No, waited
+                               8  Don't know
+                           (m) 9  Missing
+QV1012                 Reasons didn't go immediately                    681    9   AN    I    1    0   No   No
+                               A          Hospital too far
+                               B          Did not realize seriousness
+                               C          Lack of funds
+                               D          Have to go to a male doctor
+                               E          Night time
+                               F          No transport
+                               G          Husband away
+                               H          Need permission from elders
+                               X          Other
+                               Z          Don't know
+QV1013U                Time between first recognition of the seriousne  690    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               9  Special answers
+QV1013N                Time between first recognition of the seriousne  691    2    N    I    1    0   No  Yes
+                               0:90  
+                               97    Already at health facility
+                               98    Don't know
+                           (m) 99    Missing
+QV1015                 First place of treatment                         693    2    N    I    1    0   No   No
+                               21  Govt.hospital
+                               22  RHC/MCH
+                               26  Other public
+                               31  Pvt. hospital/clinic
+                               36  Other private med.
+                               96  Other
+                               98  Don't know
+                           (m) 99  Missing
+QV1016                 Who went with her to the first place for treatm  695   10   AN    I    1    0   No   No
+                               B           Husband
+                               C           Mother in law/father in law
+                               D           Mother / father
+                               E           Sister / sister in law
+                               F           Other husband's family
+                               G           Deceased's family members
+                               H           Relatives
+                               I           Friends /neighbors
+                               J           Dai / LHV / fieldworker
+                               X           Other
+                               Y           No one
+                               Z           Don't know
+QV1017                 Distance from home to health facility            705    3    N    I    1    0   No   No
+                               0:994  Kilometers
+                               998    Don't know
+                           (m) 999    Missing
+QV1018                 How she went to the first place of treatment     708    9   AN    I    1    0   No   No
+                               A          On foot
+                               B          Private car/jeep
+                               C          Bus
+                               D          Train
+                               E          Ambulance
+                               F          Animal cart
+                               G          Taxi/rented vehicle
+                               H          Rickshaw
+                               I          Motorcycle
+                               X          Other
+                               Z          Don't know
+QV1019                 Difficult to get transport to first place of tr  717    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1020U                Time to go to the first treatment place (units)  718    1    N    I    1    0   No  Yes
+                               1  Minutes
+                               2  Hours
+                               9  Special answers
+QV1020N                Time to go to the first treatment place (number  719    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV1021U                Time waiting to be examined in the first hospit  721    1    N    I    1    0   No  Yes
+                               0  Immediately
+                               1  Minutes
+                               2  Hours
+                               9  Special answers
+QV1021N                Time waiting to be examined in the first hospit  722    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV1022A                Treatment: Injection in arm                      724    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1022B                Treatment: Injection in butt                     725    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1022C                Treatment: Drip                                  726    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1022D                Treatment: Transfusion                           727    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1022E                Treatment: Operation                             728    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1022F                Treatment: Pills/Capsules                        729    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1022G                Treatment: Oxygen                                730    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1022X                Treatment: Other 1                               731    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QV1022Y                Treatment: Other 2                               732    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QV1023                 Condition improved after treatment in first pla  733    1    N    I    1    0   No   No
+                               1  Improved
+                               2  Stayed same
+                               3  Got worse
+                               4  Died
+                           (m) 9  Missing
+QV1024U                Time between she arrived in the hospital/clinic  734    1    N    I    1    0   No  Yes
+                               0  Immediately
+                               1  Minutes
+                               2  Hours
+                               3  Days
+                               9  Special answers
+QV1024N                Time between she arrived in the hospital/clinic  735    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV1025                 First hospital/clinic referred to other hospita  737    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1026                 Referral place from first hospital/clinic        738    2    N    I    1    0   No   No
+                               21  Govt.hospital
+                               22  RHC/MCH
+                               26  Other public
+                               31  Pvt. hospital/clinic
+                               36  Other private med.
+                               96  Other
+                           (m) 99  Missing
+QV1027U                Time between she arrived in the hospital/clinic  740    1    N    I    1    0   No  Yes
+                               0  Immediately
+                               1  Minutes
+                               2  Hours
+                               3  Days
+                               4  Months
+                               9  Special answers
+QV1027N                Time between she arrived in the hospital/clinic  741    2    N    I    1    0   No  Yes
+                               0     Immediately
+                               1:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV1028                 Reasons for referral to the second place         743   11   AN    I    1    0   No   No
+                               A            No equipment for operation
+                               B            High blood pressure
+                               C            To get better care
+                               D            No doctor was available
+                               E            No arrangements for giving blood
+                               F            No proper arrangements for resolving problem
+                               G            Baby went higher
+                               H            Part of baby came out
+                               I            Baby passed stool inside uterus
+                               J            Cervix did not open
+                               X            Other
+                               Z            Don't know
+QV1029                 Went to the referred place                       754    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1030                 Reasons didn't go to the referred place          755   13   AN    I    1    0   No   No
+                               A              No treatment necessary
+                               B              Not customary
+                               C              Cost too much
+                               D              Too far
+                               E              No transport
+                               F              No one to accompany
+                               G              Family did not allow
+                               H              Good care at home
+                               I              Did not know where to go
+                               J              No time to go
+                               K              Have to go to a male doctor
+                               L              Did not realize seriousness
+                               M              Death
+                               X              Other
+                               Z              Don't know
+QV1031                 Went to anywhere else for treatment              768    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1032                 Last place of treatment                          769    2    N    I    1    0   No   No
+                               21  Govt.hospital
+                               22  RHC/MCH
+                               26  Other public
+                               31  Pvt. hospital/clinic
+                               36  Other private med.
+                               96  Other
+                               98  Don't know
+                           (m) 99  Missing
+QV1033                 Who went with her to the last place for treatme  771   10   AN    I    1    0   No   No
+                               B           Husband
+                               C           Mother in law/father in law
+                               D           Mother / father
+                               E           Sister / sister in law
+                               F           Other husband's family
+                               G           Deceased's family members
+                               H           Relatives
+                               I           Friends /neighbors
+                               J           Dai / LHV / fieldworker
+                               X           Other
+                               Y           No one
+                               Z           Don't know
+QV1034                 How she went to the last place of treatment      781    8   AN    I    1    0   No   No
+                               A         On foot
+                               B         Private car/jeep
+                               C         Bus
+                               D         Train
+                               E         Ambulance
+                               F         Animal cart
+                               G         Taxi/rented vehicle
+                               H         Rickshaw
+                               X         Other
+                               Z         Don't know
+QV1035                 Difficult to get transport for last place of tr  789    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1036U                Time waiting to be examined in the last hospita  790    1    N    I    1    0   No  Yes
+                               0  Immediately
+                               1  Minutes
+                               2  Hours
+                               9  Special answers
+QV1036N                Time waiting to be examined in the last hospita  791    2    N    I    1    0   No  Yes
+                               0     Immediately
+                               1:90  
+                               98    Don't know
+                           (m) 99    Missing
+QV1037A                Treatment: Injection in arm                      793    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1037B                Treatment: Injection in butt                     794    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1037C                Treatment: Drip                                  795    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1037D                Treatment: Transfusion                           796    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1037E                Treatment: Operation                             797    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1037F                Treatment: Pills/Capsules                        798    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1037G                Treatment: Oxygen                                799    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1037X                Treatment: Other 1                               800    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QV1037Y                Treatment: Other 2                               801    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QV1038                 Condition improved after treatment in last plac  802    1    N    I    1    0   No   No
+                               1  Improved
+                               2  Stayed same
+                               3  Got worse
+                               4  Died
+                           (m) 9  Missing
+QV1039U                Time between she arrived in the last hospital/c  803    1    N    I    1    0   No  Yes
+                               0  Immediately
+                               1  Minutes
+                               2  Hours
+                               3  Days
+                               9  Special answers
+QV1039N                Time between she arrived in the last hospital/c  804    2    N    I    1    0   No  Yes
+                               0     Immediately
+                               1:90  
+                               97    Die before reaching hospital
+                               98    Don't know
+                           (m) 99    Missing
+QV1040                 Last hospital/clinic referred to other hospital  806    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1041                 Referral place from last hospital/clinic         807    2    N    I    1    0   No   No
+                               21  Govt.hospital
+                               22  RHC/MCH
+                               26  Other public
+                               31  Pvt. hospital/clinic
+                               36  Other private med.
+                               96  Other
+                               98  Don't know
+                           (m) 99  Missing
+QV1042                 Reasons for referral to another place            809   11   AN    I    1    0   No   No
+                               A            No equipment for operation
+                               B            High blood pressure
+                               C            To get better care
+                               D            No doctor was available
+                               E            No arrangements for giving blood
+                               F            No proper arrangements for resolving problem
+                               G            Baby went higher
+                               H            Part of baby came out
+                               I            Baby passed stool inside uterus
+                               J            Cervix did not open
+                               X            Other
+                               Z            Don't know
+QV1043                 Cost of treatment                                820    6    N    I    1    0   No   No
+                               1:989999  Rupees
+                               990000    990000+
+                               999997    No amount spent
+                               999998    Don't know
+                           (m) 999999    Missing
+QV1044                 Funds source                                     826    6   AN    I    1    0   No   No
+                               A       Family funds
+                               B       Borrowed
+                               C       Sold assets
+                               D       Given by relatives/friends
+                               E       Mortgaged property
+                               X       Other
+                               Z       Don't know
+QV1045                 Died in hospital                                 832    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QV1046                 Place of death                                   833    1    N    I    1    0   No   No
+                               1  On her way to next hospital
+                               2  On her way back to home
+                               3  At home
+                               6  Others
+                               8  Don't know
+                           (m) 9  Missing
+QV1047U                Time between she died and they removed the body  834    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               9  Special answers
+QV1047N                Time between she died and they removed the body  835    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+QVH146H                End of interview (hour)                          837    2    N    I    1    0   No  Yes
+                               5:23  
+                           (m) 99    Missing
+QVH146M                End of interview (minutes)                       839    2    N    I    1    0   No  Yes
+                               0:59  
+                           (m) 99    Missing
+QVH101                 Source of drinking water                         841    2    N    I    1    0   No   No
+                               11  Piped - into dwelling
+                               12  Piped - to yard/plot
+                               13  Piped - to neighbor
+                               14  Piped - public tap / standpipe
+                               21  Tube well or borehole
+                               31  Dug well - protected
+                               32  Dug well - unprotected
+                               41  Spring - protected
+                               42  Spring - unprotected
+                               51  Rainwater
+                               61  Tanker truck
+                               62  Filtration plant
+        Note: Added after other answer processing
+                               71  Cart with small tank
+                               81  Surface water (river/dam/lake/pond/stream/canal/irrigation channel)
+                               91  Bottled water
+                               96  Other
+                           (m) 99  Missing
+QVH102                 Source of water for cooking/handwashing          843    2    N    I    1    0   No   No
+                               11  Piped - into dwelling
+                               12  Piped - into yard/plot
+                               13  Piped - to neighbor
+                               14  Piped - public tap / standpipe
+                               21  Tube well or borehole
+                               31  Dug well - protected
+                               32  Dug well - unprotected
+                               41  Spring - protected
+                               42  Spring - unprotected
+                               51  Rainwater
+                               61  Tanker truck
+                               71  Cart with small tank
+                               81  Surface water (river/dam/lake/pond/stream/canal/irrigation channel)
+                               96  Other
+                           (m) 99  Missing
+QVH103                 Location of source for water                     845    1    N    I    1    0   No   No
+                               1  In own dwelling
+                               2  In own yard/plot
+                               3  Elsewhere
+                           (m) 9  Missing
+QVH104                 Time to water and back (minutes)                 846    3    N    I    1    0   No   No
+                               0:900  
+                               996    On premises
+                               998    Don't know
+                           (m) 999    Missing
+QVH106                 Water not available for at least a day           849    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QVH107                 Do anything to water to make safe to drink       850    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+QVH108                 What do you usually do to make water safe to dr  851    7   AN    I    1    0   No   No
+                               A        Boil
+                               B        Add bleach/chlorine
+                               C        Strain through a cloth
+                               D        Use water filter (ceramic/sand/composite/etc.)
+                               E        Solar disinfection
+                               F        Let it stand and settle
+                               X        Other
+                               Z        Don't know
+QVH109                 Type of toilet facility                          858    2    N    I    1    0   No   No
+                               11  Flush - to piped sewer system
+                               12  Flush - to septic tank
+                               13  Flush - to pit latrine
+                               14  Flush - to somewhere else
+                               15  Flush - don't know where
+                               21  Pit latrine - ventilated improved pit (VIP)
+                               22  Pit latrine - with slab
+                               23  Pit latrine - without slab/open pit
+                               31  Composting toilet
+                               41  Bucket toilet
+                               51  Hanging toilet/hanging latrine
+                               61  No facility/bush/field
+                               96  Other
+                           (m) 99  Missing
+QVH110                 Share facility with other households             860    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH111                 Number of households sharing toilet              861    2    N    I    1    0   No   No
+                               2:9  
+                               95   10 or more households
+                               98   Don't know
+                           (m) 99   Missing
+QVH112                 Location of toilet facility                      863    1    N    I    1    0   No   No
+                               1  In own dwelling
+                               2  In own yard/plot
+                               3  Elsewhere
+                           (m) 9  Missing
+QVH113                 Type of cooking fuel                             864    2    N    I    1    0   No   No
+                               1   Electricity
+                               2   LPG
+                               3   Natural gas
+                               4   Biogas
+                               5   Kerosene
+                               6   Coal, lignite
+                               7   Charcoal
+                               8   Wood
+                               9   Straw/shrubs/grass
+                               10  Agricultural crop
+                               11  Animal dung
+                               95  No food cooked in household
+                               96  Other
+                           (m) 99  Missing
+QVH114                 Location of cooking                              866    1    N    I    1    0   No   No
+                               1  In the house
+                               2  In a separate building
+                               3  Outdoors
+                               6  Other
+                           (m) 9  Missing
+QVH115                 Household has separate room used as kitchen      867    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH116                 Number of rooms used for sleeping                868    2    N    I    1    0   No   No
+                               0:24  
+                           (m) 99    Missing
+QVH117                 Owns livestock, herds, farm animals, poultry     870    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH118A                Cows/bulls                                       871    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+                           (m) 99    Missing
+QVH118B                Other cattle (buffalo)                           873    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+                           (m) 99    Missing
+QVH118C                Horses/donkeys/mules                             875    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+                           (m) 99    Missing
+QVH118D                Goats                                            877    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+                           (m) 99    Missing
+QVH118E                Sheep                                            879    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+                           (m) 99    Missing
+QVH118F                Camels                                           881    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+                           (m) 99    Missing
+QVH118G                Chickens/poultry                                 883    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+                           (m) 99    Missing
+QVH121A                Electricity                                      885    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121B                Radio                                            886    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121C                Television                                       887    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121D                Non-mobile telephone                             888    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121E                Refrigerator                                     889    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121F                Almirah/Cabinet                                  890    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121G                Chair                                            891    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121H                Room cooler                                      892    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121I                Airconditioner                                   893    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121J                Washing machine                                  894    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121K                Water pump                                       895    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121L                Bed                                              896    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121M                Clock                                            897    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121N                Sofa                                             898    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121O                Camera                                           899    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121P                Sewing machine                                   900    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121Q                Computer                                         901    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH121R                Internet connection                              902    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH122A                Watch                                            903    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH122B                Mobile telephone                                 904    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH122C                Bicycle                                          905    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH122D                Motorcycle or scooter                            906    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH122E                Animal-drawn cart                                907    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH122F                Car or Truck                                     908    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH122G                Tractor                                          909    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH122H                Boat with a motor                                910    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH122I                Boat without motor                               911    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH122J                Rickshaw/chingchi                                912    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+QVH142                 Main floor material                              913    2    N    I    1    0   No   No
+                               11  Earth/sand
+                               12  Dung
+                               21  Wood planks
+                               22  Palm/bamboo
+                               31  Parquet or polished wood
+                               32  Vinyl or asphalt strips
+                               33  Ceramic tiles
+                               34  Cement
+                               35  Carpet
+                               36  Chips/terrazzo
+                               37  Bricks
+                               38  Mats
+                               39  Marble
+                               96  Other
+                           (m) 99  Missing
+QVH143                 Main roof material                               915    2    N    I    1    0   No   No
+                               11  No roof
+                               12  Thatch/palm leaf
+                               13  Sod/grass
+                               21  Rustic mat
+                               22  Palm/bamboo
+                               23  Wood planks
+                               24  Cardboard
+                               31  Asbestos
+                               32  Reinforced brick cement/rcc
+                               33  Metal
+                               34  Wood
+                               35  Calamine/cement fiber
+                               36  Ceramic tiles
+                               37  Cement/rcc
+                               38  Roofing shingles
+                               96  Other
+                           (m) 99  Missing
+QVH144                 Main wall material                               917    2    N    I    1    0   No   No
+                               11  No walls
+                               12  Cane/palm/trunks
+                               13  Dirt
+                               14  Mud/stones
+                               15  Bamboo/sticks/mud
+                               21  Unbaked bricks/mud
+                               22  Bamboo with mud
+                               23  Stone with mud
+                               24  Uncovered adobe
+                               25  Plywood
+                               26  Reused wood
+                               31  Cement
+                               32  Stone with lime/cement
+                               33  Bricks
+                               34  Cement blocks
+                               35  Covered adobe
+                               36  Wood planks/shingles
+                               96  Other
+                           (m) 99  Missing
+QCD06                  Age at death                                     919    2    N    I    1    0   No   No
+                               0:94  
+                               95    95 or more
+QCD07                  Reviewer's code                                  921    2    N    I    1    0   No   No
+                               11  
+                               12  
+                               13  
+                               21  
+                               22  
+                               53  
+                               52  
+                               32  
+                               43  
+                               41  
+                               42  
+                               33  
+                               55  
+                               66  
+                               91  
+                               61  
+                               62  
+                               63  
+                               64  
+                               65  
+                               67  
+QCD08C_A               A ICD Code                                       923    4   AN    I    1    0   No   No
+QCD08C_B               B ICD Code                                       927    4   AN    I    1    0   No   No
+QCD08C_C               C ICD Code                                       931    4   AN    I    1    0   No   No
+QCD08C_D               D ICD Code                                       935    4   AN    I    1    0   No   No
+QCD09                  Was surgery performed within the last 4 weeks?   939    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+QCD10                  Was the deceased pregnant?                       940    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+QCD10A                 If Yes, than                                     941    1    N    I    1    0   No   No
+                               1  At time of death
+                               2  Between 43 days up to 1 year before death
+                               3  Within 42 days before the death
+                               4  Unknown
+QCD11                  Did the pregnancy contribute to the death?       942    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+QCD12AC                Tentative underlying cause of death - Code       943    4   AN    I    1    0   No   No
+QCD12BC                Final underlying cause of death - Code           947    4   AN    I    1    0   No   No
+                               A010  Typhoid fever with other complications
+                               A014  Paratyphoid fever, unspecified
+                               A059  Bacterial foodborne intoxication, unspecified
+                               A061  Chronic intestinal amebiasis
+                               A090  Other and unspecified gastroenteritis and colitis of infectious origin
+                               A099  Gastroenteritis and colitis of unspecified origin
+                               A153  Tuberculosis of lung, confirmed by unspecified means
+                               A162  Tuberculosis of lung, without mention of bacteriological or histological 
+                               A169  Respiratory tuberculosis unspecified, without mention of bacteriological 
+                               A170  Tuberculous meningitis
+                               A178  Tuberculous meningoencephalitis
+                               A183  Tuberculous peritonitis
+                               A19   Miliary tuberculosis
+                               A199  Miliary tuberculosis, unspecified
+                               A35   Other tetanus
+                               A419  Sepsis, unspecified organism
+                               A829  Rabies, unspecified
+                               A86   Unspecified viral encephalitis
+                               A979  Dengue, unspecified
+                               B058  Other measles complications
+                               B179  Acute viral hepatitis, unspecified
+                               B181  Chronic viral hepatitis B without delta-agent
+                               B182  Chronic viral hepatitis C
+                               B189  Chronic viral hepatitis, unspecified
+                               B190  Unspecified viral hepatitis with hepatic coma
+                               B24   Unspecified human immunodeficiency virus [HIV] disease
+                               C069  Malignant neoplasm of mouth, unspecified
+                               C109  Malignant neoplasm of oropharynx, unspecified
+                               C140  Malignant neoplasm of pharynx, unspecified
+                               C159  Malignant neoplasm of esophagus, unspecified
+                               C169  Malignant neoplasm of stomach, unspecified
+                               C189  Malignant neoplasm of colon, unspecified
+                               C20   Malignant neoplasm of rectum
+                               C210  Malignant neoplasm of anus, unspecified
+                               C220  Liver cell carcinoma
+                               C229  Malig neoplasm of liver, not specified as primary or sec
+                               C259  Malignant neoplasm of pancreas, unspecified
+                               C260  Malignant neoplasm of intestinal tract, part unspecified
+                               C269  Malignant neoplasm of ill-defined sites within the dgstv sys
+                               C349  Malignant neoplasm of unsp part of right bronchus or lung
+                               C409  Malig neoplasm of unsp bones and artic cartlg of left limb
+                               C419  Malignant neoplasm of bone and articular cartilage, unsp
+                               C449  Other specified malignant neoplasm of skin, unspecified
+                               C509  Malignant neoplasm of unsp site of unspecified male breast
+                               C539  Malignant neoplasm of cervix uteri, unspecified
+                               C55   Malignant neoplasm of uterus, part unspecified
+                               C56   Malignant neoplasm of ovary
+                               C579  Malignant neoplasm of female genital organ, unspecified
+                               C64   Malignant neoplasm of kidney, except renal pelvis
+                               C679  Malignant neoplasm of bladder, unspecified
+                               C719  Malignant neoplasm of brain, unspecified
+                               C721  Malignant neoplasm of cauda equina
+                               C762  Malignant neoplasm of abdomen
+                               C765  Malignant neoplasm of right lower limb
+                               C794  Secondary malignant neoplasm of oth parts of nervous system
+                               C795  Secondary malignant neoplasm of bone marrow
+                               C799  Secondary malignant neoplasm of unspecified site
+                               C809  Malignant neoplasm, primary site unspecified
+                               C85   Other and unspecified types of non-Hodgkin lymphoma
+                               C859  Non-Hodgkin lymphoma, unspecified, intrapelvic lymph nodes
+                               C915  Adult T-cell lymphoma/leukemia (HTLV-1-assoc), in remission
+                               C959  Leukemia, unspecified not having achieved remission
+                               C969  Malig neoplm of lymphoid, hematpoetc and rel tissue, unsp
+                               D022  Carcinoma in situ of left bronchus and lung
+                               D380  Neoplasm of uncertain behavior of larynx
+                               D432  Neoplasm of uncertain behavior of brain, unspecified
+                               D434  Neoplasm of uncertain behavior of spinal cord
+                               D440  Neoplasm of uncertain behavior of thyroid gland
+                               D45   Polycythemia vera
+                               D561  Beta thalassemia
+                               D569  Thalassemia, unspecified
+                               D619  Aplastic anemia, unspecified
+                               D649  Anemia, unspecified
+                               D66   Hereditary factor VIII deficiency
+                               D696  Thrombocytopenia, unspecified
+                               D70   Agranulocytosis
+                               E059  Thyrotoxicosis, unspecified with thyrotoxic crisis or storm
+                               E079  Disorder of thyroid, unspecified
+                               E10   diabetes mellitus Type I
+                               E102  Type 1 diabetes mellitus w oth diabetic kidney complication
+                               E106  Type 1 diabetes mellitus with hypoglycemia without coma
+                               E107  Family history of diseases of the digestive system
+                               E108  Type 1 diabetes mellitus with unspecified complications
+                               E11   diabetes mellitus
+                               E111  Type 2 diabetes mellitus with ketoacidosis with coma
+                               E112  Type 2 diabetes mellitus with diabetic nephropathy
+                               E115  Type 2 diabetes w diabetic peripheral angiopathy w gangrene
+                               E116  Type 2 diabetes mellitus with other oral complications
+                               E118  Type 2 diabetes mellitus with unspecified complications
+                               E132  Oth diabetes mellitus with oth diabetic kidney complication
+                               E138  Oth diabetes mellitus with unspecified complications
+                               E14   Diabetes mellitus
+                               E142  Diabetes mellitus With renal complications
+                               E144  Diabetes mellitus With neurological complications
+                               E146  Diabetes mellitus With other specified complications
+                               E148  Diabetes mellitus With unspecified complications
+                               E43   Unspecified severe protein-calorie malnutrition
+                               E668  Other obesity
+                               E669  Obesity, unspecified
+                               F323  Major depressv disord, single epsd, severe w psych features
+                               F332  Major depressv disorder, recurrent severe w/o psych features
+                               F333  Major depressv disorder, recurrent, severe w psych symptoms
+                               F819  Developmental disorder of scholastic skills, unspecified
+                               G039  Meningitis, unspecified
+                               G09   Sequelae of inflammatory diseases of central nervous system
+                               G409  Epilepsy, unsp, intractable, without status epilepticus
+                               G710  Muscular dystrophy
+                               G809  Cerebral palsy, unspecified
+                               G919  Hydrocephalus, unspecified
+                               G948  Other specified disorders of brain in diseases classified elsewhere
+                               I081  Rheumatic disorders of both mitral and tricuspid valves
+                               I082  Rheumatic disorders of both aortic and tricuspid valves
+                               I083  Comb rheumatic disord of mitral, aortic and tricuspid valves
+                               I088  Other rheumatic multiple valve diseases
+                               I099  Rheumatic heart disease, unspecified
+                               I10   Essential (primary) hypertension
+                               I100  Pre-existing essential hypertension complicating pregnancy, childbirth an
+                               I110  Hypertensive heart disease with heart failure
+                               I120  Hyp chr kidney disease w stage 5 chr kidney disease or ESRD
+                               I159  Secondary hypertension, unspecified
+                               I209  Angina pectoris, unspecified
+                               I219  Acute myocardial infarction, unspecified
+                               I259  Chronic ischemic heart disease, unspecified
+                               I269  Septic pulmonary embolism without acute cor pulmonale
+                               I429  Cardiomyopathy, unspecified
+                               I469  Cardiac arrest, cause unspecified
+                               I500  Congestive heart failure
+                               I509  Heart failure, unspecified
+                               I519  Heart disease, unspecified
+                               I607  Nontraumatic subarachnoid haemorrhage from unsp intracran art
+                               I608  Other nontraumatic subarachnoid haemorrhage
+                               I619  Nontraumatic intracerebral haemorrhage, unspecified
+                               I629  Nontraumatic intracranial haemorrhage, unspecified
+                               I64   Stroke, not specified as haemorrhage or infarction
+                               I670  Dissection of cerebral arteries, nonruptured
+                               I802  Phlebitis and thrombophlebitis of unspecified popliteal vein
+                               I959  Hypotension, unspecified
+                               J188  Other pneumonia, unspecified organism
+                               J189  Pneumonia, unspecified organism
+                               J440  Chronic obstructive pulmon disease w acute lower resp infct
+                               J441  Chronic obstructive pulmonary disease w (acute) exacerbation
+                               J448  Other specified chronic obstructive pulmonary disease
+                               J449  Chronic obstructive pulmonary disease, unspecified
+                               J459  Exercise induced bronchospasm
+                               J46   Status asthmaticus
+                               J690  Pneumonitis due to inhalation of food and vomit
+                               J841  Idiopathic interstitial pneumonia, not otherwise specified
+                               J90   Pleural effusion, not elsewhere classified
+                               J969  Respiratory failure, unspecified with hypercapnia
+                               K027  Dental root caries
+                               K352  Acute appendicitis with generalised peritonitis
+                               K358  Other acute appendicitis
+                               K37   Unspecified appendicitis
+                               K565  Intestinal adhesions [bands] with complete obstruction
+                               K566  Other intestnl obst unsp as to partial versus complete obst
+                               K631  Perforation of intestine (nontraumatic)
+                               K659  Peritonitis, unspecified
+                               K721  Chronic hepatic failure without coma
+                               K729  Hepatic failure, unspecified without coma
+                               K739  Chronic hepatitis, unspecified
+                               K746  Unspecified cirrhosis of liver
+                               K759  Inflammatory liver disease, unspecified
+                               K769  Liver disease, unspecified
+                               K801  Calculus of gallbladder w oth cholecystitis w/o obstruction
+                               K859  Acute pancreatitis with infected necrosis, unspecified
+                               K920  Hematemesis
+                               K922  Gastrointestinal haemorrhage, unspecified
+                               L100  Pemphigus vulgaris
+                               L899  Pressure ulcer of unspecified site, stage 1
+                               M069  Rheumatoid arthritis, unspecified
+                               M321  Endocarditis in systemic lupus erythematosus
+                               M359  Systemic involvement of connective tissue, unspecified
+                               M629  Disorder of muscle, unspecified
+                               N049  Nephrotic syndrome with unspecified morphologic changes
+                               N142  Neuropath induced by unsp drug, medicament or biolg sub
+                               N179  Acute kidney failure, unspecified
+                               N185  Chronic kidney disease, stage 5
+                               N189  Chronic kidney disease, unspecified
+                               N19   Unspecified kidney failure
+                               N200  Calculus of kidney
+                               N390  Urinary tract infection, site not specified
+                               O00   Ectopic pregnancy
+                               O008  Other ectopic pregnancy without intrauterine pregnancy
+                               O019  Hydatidiform mole, unspecified
+                               O031  Delayed or excessive hemor following incmpl spon abortion
+                               O035  Genitl trct and pelvic infct fol complete or unsp spon abort
+                               O06   Unspecified abortion
+                               O063  Unspecified abortion Complete or unspecified, with other and unspecified 
+                               O068  Unspecified abortion, Complete or unspecified, with other and unspecified
+                               O07   Complete or unspecified, with other and unspecified complications
+                               O070  Genitl trct and pelvic infct fol failed attempt term of preg
+                               O075  Other and unspecified failed attempted abortion, complicated by genital t
+                               O101  Pre-existing hypertensive heart disease comp childbirth
+                               O11   Pre-eclampsia superimposed on chronic hypertension
+                               O13   Gestational [pregnancy-induced] hypertension
+                               O141  Severe pre-eclampsia, third trimester
+                               O150  Eclampsia complicating pregnancy, second trimester
+                               O152  Eclampsia complicating the puerperium
+                               O159  Eclampsia, unspecified as to time period
+                               O211  Hyperemesis gravidarum with metabolic disturbance
+                               O223  Deep phlebothrombosis in pregnancy, third trimester
+                               O244  Gestational diabetes mellitus in childbirth, unsp control
+                               O441  Complete placenta previa with haemorrhage, third trimester
+                               O458  Other premature separation of placenta, second trimester
+                               O459  Premature separation of placenta, unsp, third trimester
+                               O468  Other antepartum haemorrhage, unspecified trimester
+                               O469  Antepartum haemorrhage, unspecified, unspecified trimester
+                               O639  Long labor, unspecified
+                               O669  Obstructed labor, unspecified
+                               O670  Intrapartum haemorrhage with coagulation defect
+                               O711  Rupture of uterus during labor
+                               O72   Postpartum haemorrhage
+                               O720  Third-stage haemorrhage
+                               O721  Other immediate postpartum haemorrhage
+                               O722  Delayed and secondary postpartum haemorrhage
+                               O731  Retained portions of placenta and membranes, w/o haemorrhage
+                               O759  Complication of labor and delivery, unspecified
+                               O85   Puerperal sepsis
+                               O860  Infection of obstetric surgical wound
+                               O871  Deep phlebothrombosis in the puerperium
+                               O882  Thromboembolism in pregnancy, unspecified trimester
+                               O900  Disruption of cesarean delivery wound
+                               O909  Complication of the puerperium, unspecified
+                               O990  Anemia complicating the puerperium
+                               O994  Diseases of the circulatory system complicating childbirth
+                               Q223  Other congenital malformations of pulmonary valve
+                               Q240  Dextrocardia
+                               Q249  Congenital malformation of heart, unspecified
+                               R100  Acute abdomen
+                               R104  Other and unspecified abdominal pain
+                               R11   Nausea and vomiting
+                               R17   Unspecified jaundice
+                               R465  Suspiciousness and marked evasiveness
+                               R509  Fever, unspecified
+                               R51   Headache
+                               R572  Septic shock
+                               R69   Illness, unspecified
+                               R96   Other sudden death, cause unknown
+                               R99   Ill-defined and unknown cause of mortality
+                               S068  Intcran inj w loss of consciousness of 1-5 hrs 59 min, init
+                               S099  Unspecified injury of face, initial encounter
+                               T060  Injuries of brain and cranial nerves with injuries of nerves and spinal c
+                               T179  Gastr contents in resp tract, part unsp cause oth inj, sqla
+                               T289  Corrosions of left ear drum, subsequent encounter
+                               T290  Burns of multiple regions, unspecified degree
+                               T292  Burns of multiple regions, no more than second-degree burns mentioned
+                               T300  Burn of unspecified body region, unspecified degree
+                               T318  Burns of 80-89% of body surface w 60-69% third degree burns
+                               T630  Toxic effect of venom of Australian snake, acc, sequela
+                               T659  Toxic effect of unsp substance, self-harm, sequela
+                               T670  Heatstroke and sunstroke, subsequent encounter
+                               T750  Other effects of lightning, sequela
+                               T754  Electrocution, sequela
+                               T804  Rh incompatibility w hemolytic transfs react, unsp, subs
+                               T808  Extravasation of other vesicant agent, initial encounter
+                               T809  Unspecified transfusion reaction, initial encounter
+                               T886  Anaphyl reaction due to advrs eff drug/med prop admin, init
+                               T887  Unspecified adverse effect of drug or medicament, sequela
+                               T889  Complication of surgical and medical care, unsp, sequela
+                               T909  Sequelae of unspecified injury of head
+                               V862  Person on outside of sp off-rd mv injured in traf, sequela
+                               V878  Person injured in oth nonclsn transport acc w mtr veh, init
+                               V892  Person injured in unsp motor-vehicle accident, traffic, init
+                               W34   Discharge from other and unspecified firearms
+                               W86   Exposure to other specified electric current
+                               X00   Exposure to uncontrolled fire in building or structure
+                               X09   Exposure to unspecified smoke, fire and flames
+                               X380  Victim of flood
+                               X68   Intentional self-poisoning by and exposure to pesticides
+                               X70   Intentional self-harm by hanging, strangulation and suffocation
+                               X71   Intentional self-harm by drowning and submersion
+                               X72   Intentional self-harm by handgun discharge
+                               X74   Intentional self-harm by other and unspecified firearm discharge
+                               X76   Intentional self-harm by smoke, fire and flames
+                               X80   Intentional self-harm by jumping from a high place
+                               X81   Intentional self-harm by jumping or lying before moving object
+                               X83   Intentional self-harm by other specified means
+                               X84   Intentional self-harm by jumping or lying before moving object
+                               X91   Assault by hanging, strangulation and suffocation
+                               X95   Assault by other and unspecified firearm discharge
+                               Y08   Assault by other specified means
+                               Y09   Assault by unspecified means
+                               Y20   Hanging, strangulation and suffocation, undetermined intent
+                               Y30   Falling, jumping or pushed from a high place, undetermined intent
+                               Y364  War operations involving rubber bullets, civilian, sequela
+                               Y600  During surgical operation
+                               Y601  During infusion or transfusion
+                               Y603  During injection or immunization
+                               Y609  During unspecified surgical and medical care
+                               Y792  Prosth/oth implnt/mtrls orthopedic devices assoc w incdt
+                               Y831  Implnt of artif int dev cause abn react/compl, w/o misadvnt
+                               Z605  Target of (perceived) adverse discrimination and persecution
+                               Z915  Personal history of self-harm
+QCD13C                 Reviewer's decision on the category of death (s  951    1    N    I    1    0   No   No
+                               1  Direct obstetric death
+                               2  Indirect obstetric death
+                               3  Probable obstetric death
+                               4  Coincidental obstetric death
+                               5  Late maternal death
+                               6  Non-obstetric death
+                               0  Undecided on the category of death
+QCD13D                 Timing of death in relation to pregnancy, deliv  952    1    N    I    1    0   No   No
+                               1  Death during pregnancy (before any signs of labor or abortion)
+                               2  Death during or < 24 hours after delivery
+                               3  Death during or < 24 hours after abortion/miscarriage
+                               4  Death > 24 hours but < 42 days after delivery
+                               5  Death > 24 hours but < 42 days after abortion/miscarriage
+                               6  Death > 42 days but < 1 year after delivery/abortion/miscarriage
+                               0  Cannot be determined (insufficient information)
+                               9  Not applicable (not a pregnancy-related death)
+QCD13E1                Delay in seeking treatment (address all three d  953    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               3  Probably
+                               6  Cannot Determine
+                               7  Not Applicable (deaths not pregnancy related)
+QCD13E2                SECOND DELAY                                     954    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               3  Probably
+                               6  Cannot Determine
+                               7  Not Applicable (deaths not pregnancy related)
+QCD13E3                THIRD DELAY                                      955    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               3  Probably
+                               6  Cannot Determine
+                               7  Not Applicable (deaths not pregnancy related)
+QCD14                  Reviewer's assessment of quality of information  956    1    N    I    1    0   No   No
+                               1  Very Poor
+                               2  Poor
+                               3  Average
+                               4  Good
+                               5  Very Good
+--------------------------------------------------------------------------------------------------------------
+Relation Name         Primary               Linked by             Secondary             Linked by
+--------------------------------------------------------------------------------------------------------------

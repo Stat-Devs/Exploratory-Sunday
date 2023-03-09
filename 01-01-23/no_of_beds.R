@@ -9,9 +9,7 @@ beds |>
   ggplot(aes(x = fct_reorder(Institutes, Beds), y = Beds)) +
   geom_col(fill = "#B9D9EB") +
   ggtitle("Total No. of Beds in Healthcare Institutes in Pakistan" ) +
-  labs(
-    caption = "Data Source: Pakistan Statistical Yearbook 2019 & Pakistan Economic Survey 2020-2021"
-  ) +
+  
   xlab("Healthcare Institutes") +
   ylab("No. of Beds") +
   coord_flip() +

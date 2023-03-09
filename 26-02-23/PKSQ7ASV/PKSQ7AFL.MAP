@@ -1,0 +1,417 @@
+                                                   PKSQ7AFL                                                   
+                                                PKSQ7AFL_DICT                                                 
+
+                                      PKSQ7AFL.DCF                                                            
+                                    Last Modified:  2/11/2021  3:29:32 PM                                     
+
+--------------------------------------------------------------------------------------------------------------
+Level Name                    Level Label                                                  Type            Rec
+  Record Name                   Record Label                                              Value  Req  Max  Len
+--------------------------------------------------------------------------------------------------------------
+COMMUNITY                     Community questionnaire                                                         
+  RECORD1                       RECORD1                                                          Yes    1  242
+Level: Community questionnaire                         Record: RECORD1
+--------------------------------------------------------------------------------------------------------------
+                                                                                 Data Item            Dec Zero
+Item Name              Item Label                                     Start  Len Type Type  Occ  Dec Char Fill
+--------------------------------------------------------------------------------------------------------------
+TCLUSTER          (id) Community identification                           1    4    N    I    1    0   No   No
+                         (record type)                                    0    0   AN    I    1    0   No   No
+TREGION                Region of residence                                5    1    N    I    1    0   No   No
+                               1  Punjab
+                               2  Sindh
+                               3  KPK
+                               4  Balochistan
+                               5  GB
+                               6  AJK
+TDISTRICT              District                                           6    3    N    I    1    0   No   No
+                               101  Attock
+                               102  Bahawalnagar
+                               103  Bahawalpur
+                               104  Bhakkar
+                               105  Chakwal
+                               106  Chiniot
+                               107  Dera Ghazi Khan
+                               108  Faisalabad
+                               109  Gujranwala
+                               110  Gujrat
+                               111  Hafizabad
+                               112  Jhang
+                               113  Jhelum
+                               114  Kasur
+                               115  Khanewal
+                               116  Khushab
+                               117  Lahore
+                               118  Layyah
+                               119  Lodhran
+                               120  Mandi Bahauddin
+                               121  Mianwali
+                               122  Multan
+                               123  Muzaffargarh
+                               124  Nankana Sahib
+                               125  Narowal
+                               126  Okara
+                               127  Pakpattan
+                               128  Rahim Yar Khan
+                               129  Rajanpur
+                               130  Rawalpindi
+                               131  Sahiwal
+                               132  Sargodha
+                               133  Sheikhupura
+                               134  Sialkot
+                               135  Toba Tek Singh
+                               136  Vehari
+                               201  Badin
+                               202  Dadu
+                               203  Ghotki
+                               204  Hyderabad
+                               205  Jacobabad
+                               206  Jamshoro
+                               207  Karachi Central
+                               208  Karachi East
+                               210  Karachi South
+                               211  Karachi West
+                               212  Kashmore
+                               213  Khairpur
+                               214  Larkana
+                               215  Matiari
+                               216  Mirpur Khas
+                               217  Naushahro Feroze
+                               218  Sanghar
+                               219  Shahdad Kot
+                               220  Nawabshah/Shaheed Benazir Abad
+                               221  Shikarpur
+                               222  Sukkur
+                               223  Tando Alla Yar
+                               224  Tando Muhammad Khan
+                               225  Tharparkar
+                               226  Thatta
+                               227  Umer Kot
+                               228  Korangi
+                               229  Malair
+                               230  Sujawal
+                               301  Abbottabad
+                               302  Bannu
+                               303  Batagram
+                               304  Buner
+                               305  Charsadda
+                               306  Chitral
+                               307  D. I. Khan
+                               308  Hangu
+                               309  Haripur
+                               310  Karak
+                               311  Kohat
+                               312  Kohistan
+                               313  Lakki Marwat
+                               314  Lower Dir
+                               315  Malakand Protected Area
+                               316  Mansehra
+                               317  Mardan
+                               318  Nowshera
+                               319  Peshawar
+                               320  Shangla
+                               321  Swabi
+                               322  Swat
+                               323  Tank
+                               324  Tor Ghar
+                               325  Upper Dir
+                               401  Awaran
+                               402  Barkhan
+                               403  Bolan/Kachhi
+                               404  Chagai
+                               405  Dera Bugti
+                               406  Gawadar
+                               407  Harnai
+                               408  Jaffarabad
+                               409  Jhal Magsi
+                               410  Kalat
+                               411  Kech/Turbat
+                               412  Kharan
+                               413  Khuzdar
+                               414  Killa Abdullah
+                               415  Killa Saifullah
+                               416  Kohlu
+                               417  Lasbela
+                               418  Loralai
+                               419  Mastung
+                               420  Musakhel
+                               421  Nasirabad/Tamboo
+                               422  Nushki
+                               423  Panjgur
+                               424  Pishin
+                               425  Quetta
+                               426  Sherani
+                               427  Sibi
+                               428  Washuk
+                               429  Zhob
+                               430  Ziarat
+                               432  Sohbat Pur
+                               501  Astore
+                               502  Baltistan
+                               503  Diamir
+                               504  Ghanche
+                               505  Ghizer
+                               506  Gilgit
+                               507  Nagar
+                               508  Kharmang
+                               509  Hunza
+                               510  Shigar
+                               601  Islamabad
+                               701  Bajour
+                               702  Khyber
+                               703  Kurram
+                               704  Mohmand
+                               705  North Waziristan
+                               706  Orakzai
+                               707  South Waziristan
+                               801  Bagh
+                               802  Bhimber
+                               803  Hattian Bala
+                               804  Haveli
+                               805  Kotli
+                               806  Mirpur
+                               807  Muzaffarabad
+                               808  Neelum
+                               809  Poonch
+                               810  Sudhonti
+TINTD                  Day of Interview                                   9    2    N    I    1    0   No   No
+                               1:31  
+TINTM                  Month of Interview                                11    2    N    I    1    0   No   No
+                               1:12  
+TINTY                  Year of Interview                                 13    4    N    I    1    0   No   No
+                               2019  
+TINTER                 Interviewer number                                17    4    N    I    1    0   No   No
+                          (na)       Not applicable
+TRESULT                Community's Result                                21    1    N    I    1    0   No   No
+                               1  Completed
+                               2  Unable to find suitable respondents
+                               9  Other
+TINTSEX                Sex of persons interviewed                        22    1    N    I    8    0   No   No
+                               1  Male
+                               2  Female
+                               0  End of list
+TLANGQ                 Language of questionnaire                         30    2    N    I    1    0   No   No
+                               1  English
+                               2  Urdu
+                               3  Sindhi
+                               4  Punjabi
+                               5  Sariaki
+                               6  Baluchi
+                               7  Pushto
+                               8  Other
+TLANGI                 Language of interview                             32    2    N    I    1    0   No   No
+                               1  English
+                               2  Urdu
+                               3  Sindhi
+                               4  Punjabi
+                               5  Sariaki
+                               6  Baluchi
+                               7  Pushto
+                               8  Other
+TLANGR                 Language of respondent                            34    2    N    I    1    0   No   No
+                               1  English
+                               2  Urdu
+                               3  Sindhi
+                               4  Punjabi
+                               5  Sariaki
+                               6  Baluchi
+                               7  Pushto
+                               8  Other
+TTRANS                 Translator used                                   36    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+TSUPERV                Supervisor                                        37    4    N    I    1    0   No   No
+                          (na)       Not applicable
+TFEDIT                 Field editor                                      41    4    N    I    1    0   No   No
+                          (na)       Not applicable
+TDEO                   Data entry clerk                                  45    2    N    I    1    0   No   No
+                          (na)     Not applicable
+T101                   Distance from district headquarter                47    2    N    I    1    0   No   No
+                               0:94  
+                               95    95 and more
+                               97    No information
+                               98    DK
+                           (m) 99    Missing
+T102                   Type of road to the district headqaurter          49    1    N    I    1    0   No   No
+                               1  Mainly Katcha
+                               2  Mainly Pacca
+                           (m) 9  Missing
+T103                   Distance from the road which goes to district h   50    2    N    I    1    0   No   No
+                               0     Less than 1 km
+                               1:94  
+                               95    95 and more
+                           (m) 99    Missing
+T104                   Mode of transportation to reach the road which    52    2    N    I    1    0   No   No
+                               1   Walk
+                               2   Rickshaw
+                               3   Bicycle
+                               4   Motorbike
+                               5   Private car/taxi/suzuki van/tractor trolly
+                               6   Tonga/cattle cart
+                               7   Bus/truck
+                               96  Other
+                           (m) 99  Missing
+T105                   Distance to the nearest city/town                 54    2    N    I    1    0   No   No
+                               0     Less than 1 km
+                               1:94  
+                               95    95 and more
+                           (m) 99    Missing
+T106                   Type of the most streets/galies                   56    1    N    I    1    0   No   No
+                               1  Paved
+                               2  Cemented
+                               3  Brick solling
+                               4  Kutcha
+                               6  Others
+                           (m) 9  Missing
+T107                   Type of transportation available                  57    8   AN    I    1    0   No   No
+                               A         Bus
+                               B         Wagon
+                               C         Private car
+                               D         Pick-up suzuki
+                               E         Rikshaw
+                               F         Motorbike
+                               G         Tonga
+                               X         Others
+T108                   Transport available during the night              65    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Does not know/Not sure
+                           (m) 9  Missing
+T109                   Place of treatment, when pregnant women have a    66    2    N    I    1    0   No   No
+                               1   DHQ hospital
+                               2   THQ hospital
+                               3   MCH centre
+                               4   RHC
+                               5   BHU
+                               6   Private clinic/hospital
+                               7   Dai/Birth attendant
+                               8   Lady Health Worker
+                           (m) 99  Missing
+T110                   Mode of transportation used to reach that facil   68    2    N    I    1    0   No   No
+                               1   Walk
+                               2   Rickshaw
+                               3   Bicycle
+                               4   Motorbike
+                               5   Private car/taxi/suzuki van/tractor trolly
+                               6   Tonga/cattle cart
+                               7   Bus/truck
+                               96  Other
+                           (m) 99  Missing
+T111                   Time to reach the health facility                 70    3    N    I    1    0   No   No
+                               1:997  Minutes
+                               998    Does not know
+                           (m) 999    Missing
+T112                   Presence of Lady Health Worker in the village     73    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Does not know/Not sure
+                           (m) 9  Missing
+                          (na)    Not applicable
+T113                   Type of services provided by LHW                  74    8   AN    I    1    0   No   No
+                               A         Antenatal Care
+                               B         Delivery
+                               C         Child immunizations
+                               D         Child care services
+                               E         Postnatal care
+                               F         Family planning
+                               G         General ailments
+                               X         Others
+T114                   Community's LHW make house visits on a regular    82    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Do not know/Not sure
+                           (m) 9  Missing
+T115                   Place of births register                          83    4   AN    I    1    0   No   No
+                               A     Union council
+                               B     Town committee
+                               C     Municipal corporation
+                               X     Other
+T116                   Number of women that get financial support thro   87    2    N    I    1    0   No   No
+                               0:94  
+                           (m) 99    Missing
+T117                   Type of economic activities available for women   89    5   AN    I    1    0   No   No
+                               A      Agriculture
+                               B      Livestock
+                               C      Stitching/embroidery
+                               D      Handicraft making
+                               X      Other
+T118                   Social organization in this village               94    4   AN    I    1    0   No   No
+                               A     Punchayat
+                               B     Cooperative society
+                               C     Social welfare society
+                               D     School committee
+                               Y     None of them
+T119                   Women usually participate in these organization   98    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+T120                   Any campaign for the use of mosquito nets         99    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+T121                   Medicines easily available                       100    1    N    I    1    0   No   No
+                               1  Easily available
+                               2  Sometime available
+                               3  Never available
+                           (m) 9  Missing
+T122                   Any natural disaster during last 5 years         101    6   AN    I    1    0   No   No
+                               A       Not occurred
+                               B       Flood
+                               C       Heavy rains
+                               D       Drought
+                               E       Earth quake
+                               X       Other
+T201N                  Type of facility/service                         107    1   AN    I   25    0   No   No
+                               A  Medical store
+                               B  General store or shop
+                               C  Motorized public transport
+                               D  Non-motorized public transport
+                               E  Post office
+                               F  Courier services
+                               G  Bank
+                               H  Primary school for boys
+                               I  Primary school for girls
+                               J  Secondary school for boys
+                               K  Secondary school for girls
+                               L  Degree college for boys or girls
+                               M  Any ambulance service
+                               N  Ultrasound services for pregnant women
+                               O  NADRA Office
+                               P  A waste water drainage scheme
+                               Q  A sewerage system
+                               R  A drinking water scheme
+                               S  Television signal/service
+                               T  Cable television connections
+                               U  Any land-line telephone service
+                               V  Mobile telephone coverage
+                               W  Electricity
+                               X  Gas connection
+                               Y  Any public call office (PCO)
+T203                   Availability of facility/service in this villag  132    1    N    I   25    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+T204                   Distance of facility/service from this village   157    2    N    I   25    0   No   No
+                               0:94  
+                               95    95 and more
+                           (m) 99    Missing
+T301N                  Type of health facility                          207    1   AN    I   12    0   No   No
+                               A  Dai
+                               B  A functioning basic health unit (BHU)
+                               C  A rural health center (RHC)
+                               D  A functioning government dispensory
+                               E  A functioning MCH centre
+                               F  A female doctor
+                               G  A private doctor
+                               H  A dispensor or a compounder
+                               I  A family welfare centre (FWC)
+                               J  A hakeem
+                               K  A homeopath
+                               L  A hospital
+T301                   Distance of health facility from this village    219    2    N    I   12    0   No   No
+                               0:94  
+                               95    95 or more
+                           (m) 99    Missing
+--------------------------------------------------------------------------------------------------------------
+Relation Name         Primary               Linked by             Secondary             Linked by
+--------------------------------------------------------------------------------------------------------------
