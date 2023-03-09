@@ -1,0 +1,69 @@
+---
+title: "Pakistan Health Infrastructure Outlook"
+author: "Stat Devs"
+footer: Final-logo.png
+format: beamer
+theme: Copenhagen
+include-after-body: quarto-statdevs-template/lastPage.tex
+editor: visual
+---
+
+## Introduction to Exploratory Sunday{.smaller}
+
+
+-   Exploratory Sunday is a social awareness campaign initiated by StatDevs.
+
+-   Every Sunday, we post weekly statistics and visualizations concentrating on Pakistan's demographic, healthcare and socio-economic indicators.
+
+-   The aim of this compaign is to raise awareness to masses about how Pakistan's conditions stack up against Sustainable Development Goals.
+
+-   These posts are made using Open Source data sets such as PDHS(2017-18), PSLM(2019-20), Pakistan Census (2017) data.
+
+
+## How is Pakistan demographically distributed?{.smaller}
+
+![](Demographics-Final.png){fig-align="center"}
+
+
+## Pakistan sits in Lower Income group in Global Health Spending{.smaller}
+
+![](Final Global Health.png){fig-align="center"}
+
+## On average 52% of health financing is Out of Pocket Expenditure in Pakistan
+
+![](health-financing.png){fig-align="center"}
+
+
+
+## What is Pakistan's Health Infrastruce Outlook?
+
+![](health-infrastructure.png){fig-align="center"}
+
+
+## More RHCs & BHUs are needed to cover the health disparity in Pakistan
+![](beds.png){fig-align="center"}
+
+## Supply of Health Infrastructure is low in Balochistan
+
+![](primary_health_facilities.png){fig-align="center"}
+
+
+
+
+
+## Balochistan lacks prenatal consultation by health specialist
+
+![](Prenatal-Statistics-crop.png){fig-align="center"}
+
+## Call to Action
+
+
+- Pakistan’s healthcare system relies predominantly on Out-of Pocket financing.
+
+- Spatial disparities in access to basic to health necessities has widened in Pakistan.
+
+- The burden of out-of-pocket expenditure is much greater for poor households than rich ones.
+
+- Ensuring implementation and monitoring the correctness of the laws by health system governance can help reduce OOP payments and can improve Pakistan Health Infrastructure.
+
+
