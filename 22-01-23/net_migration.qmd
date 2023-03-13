@@ -1,0 +1,15 @@
+---
+title: "Net Migration in Pakistan"
+author: "Sarfaraz Jamal"
+image: "net_migration.png"
+description: " "
+categories: ["Demographics"]
+date: 22/01/2023
+format: html
+editor: visual
+---
+
+
+```{r know, echo = FALSE, out.width = "100%", fig.align='center'}
+knitr::include_graphics("net_migration.png")
+```

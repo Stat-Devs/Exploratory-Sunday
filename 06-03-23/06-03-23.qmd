@@ -1,15 +1,15 @@
 ---
-title: "Total Number of Beds in Healthcare Institutes in Pakistan"
+title: "Medicine Availability in Balochistan"
 author: "Sarfaraz Jamal"
-image: "beds.png"
+image: "medicines.png"
 description: " "
 categories: ["Health Infrastructure"]
-date: 01/01/2023
+date: 06/03/2023
 format: html
 editor: visual
 ---
 
 
 ```{r know, echo = FALSE, out.width = "100%", fig.align='center'}
-knitr::include_graphics("beds.png")
+knitr::include_graphics("medicines.png")
 ```
